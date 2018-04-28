@@ -1,0 +1,3458 @@
+{
+    "crafttweaker_IFurnaceManager_remove": {
+        "prefix": "IFurnaceManager.remove",
+        "body": [
+            "crafttweaker.recipes.IFurnaceManager.remove(output, optionalInput);"
+        ],
+        "scope": "zenscript",
+        "description": "crafttweaker IFurnaceManager remove"
+    },
+    "crafttweaker_IFurnaceManager_removeAll": {
+        "prefix": "IFurnaceManager.removeAll",
+        "body": [
+            "crafttweaker.recipes.IFurnaceManager.removeAll();"
+        ],
+        "scope": "zenscript",
+        "description": "crafttweaker IFurnaceManager removeAll"
+    },
+    "crafttweaker_IFurnaceManager_addRecipe": {
+        "prefix": "IFurnaceManager.addRecipe",
+        "body": [
+            "crafttweaker.recipes.IFurnaceManager.addRecipe(output, input, optionalXp);"
+        ],
+        "scope": "zenscript",
+        "description": "crafttweaker IFurnaceManager addRecipe"
+    },
+    "crafttweaker_IFurnaceManager_setFuel": {
+        "prefix": "IFurnaceManager.setFuel",
+        "body": [
+            "crafttweaker.recipes.IFurnaceManager.setFuel(item, fuel);"
+        ],
+        "scope": "zenscript",
+        "description": "crafttweaker IFurnaceManager setFuel"
+    },
+    "crafttweaker_IRecipeManager_addShaped": {
+        "prefix": "IRecipeManager.addShaped",
+        "body": [
+            "crafttweaker.recipes.IRecipeManager.addShaped(output, ingredients[][], optionalFunction, optionalAction);"
+        ],
+        "scope": "zenscript",
+        "description": "crafttweaker IRecipeManager addShaped"
+    },
+    "crafttweaker_IRecipeManager_addShapedMirrored": {
+        "prefix": "IRecipeManager.addShapedMirrored",
+        "body": [
+            "crafttweaker.recipes.IRecipeManager.addShapedMirrored(output, ingredients[][], optionalFunction, optionalAction);"
+        ],
+        "scope": "zenscript",
+        "description": "crafttweaker IRecipeManager addShapedMirrored"
+    },
+    "crafttweaker_IRecipeManager_addShapeless": {
+        "prefix": "IRecipeManager.addShapeless",
+        "body": [
+            "crafttweaker.recipes.IRecipeManager.addShapeless(output, ingredients[], optionalFunction, optionalAction);"
+        ],
+        "scope": "zenscript",
+        "description": "crafttweaker IRecipeManager addShapeless"
+    },
+    "crafttweaker_IRecipeManager_removeAll": {
+        "prefix": "IRecipeManager.removeAll",
+        "body": [
+            "crafttweaker.recipes.IRecipeManager.removeAll();"
+        ],
+        "scope": "zenscript",
+        "description": "crafttweaker IRecipeManager removeAll"
+    },
+    "crafttweaker_IRecipeManager_remove": {
+        "prefix": "IRecipeManager.remove",
+        "body": [
+            "crafttweaker.recipes.IRecipeManager.remove(output, optionalNbtMatch);"
+        ],
+        "scope": "zenscript",
+        "description": "crafttweaker IRecipeManager remove"
+    },
+    "crafttweaker_IRecipeManager_removeByRecipeName": {
+        "prefix": "IRecipeManager.removeByRecipeName",
+        "body": [
+            "crafttweaker.recipes.IRecipeManager.removeByRecipeName(recipeName);"
+        ],
+        "scope": "zenscript",
+        "description": "crafttweaker IRecipeManager removeByRecipeName"
+    },
+    "crafttweaker_IRecipeManager_removeByRegex": {
+        "prefix": "IRecipeManager.removeByRegex",
+        "body": [
+            "crafttweaker.recipes.IRecipeManager.removeByRegex(regexString);"
+        ],
+        "scope": "zenscript",
+        "description": "crafttweaker IRecipeManager removeByRegex"
+    },
+    "crafttweaker_IRecipeManager_removeShaped": {
+        "prefix": "IRecipeManager.removeShaped",
+        "body": [
+            "crafttweaker.recipes.IRecipeManager.removeShaped(output, optionalIngredients[][]);"
+        ],
+        "scope": "zenscript",
+        "description": "crafttweaker IRecipeManager removeShaped"
+    },
+    "crafttweaker_IRecipeManager_removeShapeless": {
+        "prefix": "IRecipeManager.removeShapeless",
+        "body": [
+            "crafttweaker.recipes.IRecipeManager.removeShapeless(output, optionalIngredients[], optionalWildcard);"
+        ],
+        "scope": "zenscript",
+        "description": "crafttweaker IRecipeManager removeShapeless"
+    },
+    "actuallyadditions_AtomicReconstructor_addRecipe": {
+        "prefix": "AtomicReconstructor.addRecipe",
+        "body": [
+            "mods.actuallyadditions.AtomicReconstructor.addRecipe(output, input, energyUsed);"
+        ],
+        "scope": "zenscript",
+        "description": "actuallyadditions AtomicReconstructor addRecipe"
+    },
+    "actuallyadditions_AtomicReconstructor_removeRecipe": {
+        "prefix": "AtomicReconstructor.removeRecipe",
+        "body": [
+            "mods.actuallyadditions.AtomicReconstructor.removeRecipe(output);"
+        ],
+        "scope": "zenscript",
+        "description": "actuallyadditions AtomicReconstructor removeRecipe"
+    },
+    "actuallyadditions_BallOfFur_addReturn": {
+        "prefix": "BallOfFur.addReturn",
+        "body": [
+            "mods.actuallyadditions.BallOfFur.addReturn(output, chance);"
+        ],
+        "scope": "zenscript",
+        "description": "actuallyadditions BallOfFur addReturn"
+    },
+    "actuallyadditions_BallOfFur_removeReturn": {
+        "prefix": "BallOfFur.removeReturn",
+        "body": [
+            "mods.actuallyadditions.BallOfFur.removeReturn(output);"
+        ],
+        "scope": "zenscript",
+        "description": "actuallyadditions BallOfFur removeReturn"
+    },
+    "actuallyadditions_Compost_addRecipe": {
+        "prefix": "Compost.addRecipe",
+        "body": [
+            "mods.actuallyadditions.Compost.addRecipe(output, outputDisplay, input, inputDisplay);"
+        ],
+        "scope": "zenscript",
+        "description": "actuallyadditions Compost addRecipe"
+    },
+    "actuallyadditions_Compost_removeRecipe": {
+        "prefix": "Compost.removeRecipe",
+        "body": [
+            "mods.actuallyadditions.Compost.removeRecipe(output);"
+        ],
+        "scope": "zenscript",
+        "description": "actuallyadditions Compost removeRecipe"
+    },
+    "actuallyadditions_Crusher_addRecipe": {
+        "prefix": "Crusher.addRecipe",
+        "body": [
+            "mods.actuallyadditions.Crusher.addRecipe(output, input, optionalOutputSecondary, optionalOutputSecondaryChance);"
+        ],
+        "scope": "zenscript",
+        "description": "actuallyadditions Crusher addRecipe"
+    },
+    "actuallyadditions_Crusher_removeRecipe": {
+        "prefix": "Crusher.removeRecipe",
+        "body": [
+            "mods.actuallyadditions.Crusher.removeRecipe(output);"
+        ],
+        "scope": "zenscript",
+        "description": "actuallyadditions Crusher removeRecipe"
+    },
+    "actuallyadditions_Empowerer_addRecipe": {
+        "prefix": "Empowerer.addRecipe",
+        "body": [
+            "mods.actuallyadditions.Empowerer.addRecipe(output, input, modifier1, modifier2, modifier3, modifier4, energyPerStand, time, optionalParticleColourArray[]);"
+        ],
+        "scope": "zenscript",
+        "description": "actuallyadditions Empowerer addRecipe"
+    },
+    "actuallyadditions_Empowerer_removeRecipe": {
+        "prefix": "Empowerer.removeRecipe",
+        "body": [
+            "mods.actuallyadditions.Empowerer.removeRecipe(output);"
+        ],
+        "scope": "zenscript",
+        "description": "actuallyadditions Empowerer removeRecipe"
+    },
+    "actuallyadditions_MiningLens_addStoneOre": {
+        "prefix": "MiningLens.addStoneOre",
+        "body": [
+            "mods.actuallyadditions.MiningLens.addStoneOre(ore, weight);"
+        ],
+        "scope": "zenscript",
+        "description": "actuallyadditions MiningLens addStoneOre"
+    },
+    "actuallyadditions_MiningLens_addNetherOre": {
+        "prefix": "MiningLens.addNetherOre",
+        "body": [
+            "mods.actuallyadditions.MiningLens.addNetherOre(ore, weight);"
+        ],
+        "scope": "zenscript",
+        "description": "actuallyadditions MiningLens addNetherOre"
+    },
+    "actuallyadditions_MiningLens_removeStoneOre": {
+        "prefix": "MiningLens.removeStoneOre",
+        "body": [
+            "mods.actuallyadditions.MiningLens.removeStoneOre(ore);"
+        ],
+        "scope": "zenscript",
+        "description": "actuallyadditions MiningLens removeStoneOre"
+    },
+    "actuallyadditions_MiningLens_removeNetherOre": {
+        "prefix": "MiningLens.removeNetherOre",
+        "body": [
+            "mods.actuallyadditions.MiningLens.removeNetherOre(ore);"
+        ],
+        "scope": "zenscript",
+        "description": "actuallyadditions MiningLens removeNetherOre"
+    },
+    "actuallyadditions_OilGen_addRecipe": {
+        "prefix": "OilGen.addRecipe",
+        "body": [
+            "mods.actuallyadditions.OilGen.addRecipe(fluid, genAmount, optionalGenTime);"
+        ],
+        "scope": "zenscript",
+        "description": "actuallyadditions OilGen addRecipe"
+    },
+    "actuallyadditions_OilGen_removeRecipe": {
+        "prefix": "OilGen.removeRecipe",
+        "body": [
+            "mods.actuallyadditions.OilGen.removeRecipe(output);"
+        ],
+        "scope": "zenscript",
+        "description": "actuallyadditions OilGen removeRecipe"
+    },
+    "actuallyadditions_TreasureChest_addLoot": {
+        "prefix": "TreasureChest.addLoot",
+        "body": [
+            "mods.actuallyadditions.TreasureChest.addLoot(returnItem, chance, minAmount, maxAmount);"
+        ],
+        "scope": "zenscript",
+        "description": "actuallyadditions TreasureChest addLoot"
+    },
+    "actuallyadditions_TreasureChest_removeLoot": {
+        "prefix": "TreasureChest.removeLoot",
+        "body": [
+            "mods.actuallyadditions.TreasureChest.removeLoot(returnItem);"
+        ],
+        "scope": "zenscript",
+        "description": "actuallyadditions TreasureChest removeLoot"
+    },
+    "betterwithAnvil_betterwithAnvil_addShaped": {
+        "prefix": "betterwithAnvil.addShaped",
+        "body": [
+            "mods.betterwithmods.Anvil.addShaped(output, inputs[][]);"
+        ],
+        "scope": "zenscript",
+        "description": "betterwithAnvil betterwithAnvil addShaped"
+    },
+    "betterwithAnvil_betterwithAnvil_addShapeless": {
+        "prefix": "betterwithAnvil.addShapeless",
+        "body": [
+            "mods.betterwithmods.Anvil.addShapeless(output, inputs[]);"
+        ],
+        "scope": "zenscript",
+        "description": "betterwithAnvil betterwithAnvil addShapeless"
+    },
+    "betterwithAnvil_betterwithAnvil_removeShaped": {
+        "prefix": "betterwithAnvil.removeShaped",
+        "body": [
+            "mods.betterwithmods.Anvil.removeShaped(output, optionalIngredients[][]);"
+        ],
+        "scope": "zenscript",
+        "description": "betterwithAnvil betterwithAnvil removeShaped"
+    },
+    "betterwithAnvil_betterwithAnvil_removeShapeless": {
+        "prefix": "betterwithAnvil.removeShapeless",
+        "body": [
+            "mods.betterwithmods.Anvil.removeShapeless(output, optionalIngredients[]);"
+        ],
+        "scope": "zenscript",
+        "description": "betterwithAnvil betterwithAnvil removeShapeless"
+    },
+    "betterwithBuoyancy_betterwithBuoyancy_set": {
+        "prefix": "betterwithBuoyancy.set",
+        "body": [
+            "mods.betterwithmods.Buoyancy.set(stack, value);"
+        ],
+        "scope": "zenscript",
+        "description": "betterwithBuoyancy betterwithBuoyancy set"
+    },
+    "betterwithCauldron_betterwithCauldron_add": {
+        "prefix": "betterwithCauldron.add",
+        "body": [
+            "mods.betterwithmods.Cauldron.add(output, optionalSecondaryOutput, inputs[]);"
+        ],
+        "scope": "zenscript",
+        "description": "betterwithCauldron betterwithCauldron add"
+    },
+    "betterwithCauldron_betterwithCauldron_remove": {
+        "prefix": "betterwithCauldron.remove",
+        "body": [
+            "mods.betterwithmods.Cauldron.remove(output);"
+        ],
+        "scope": "zenscript",
+        "description": "betterwithCauldron betterwithCauldron remove"
+    },
+    "betterwithCrucible_betterwithCrucible_add": {
+        "prefix": "betterwithCrucible.add",
+        "body": [
+            "mods.betterwithmods.Crucible.add(output, optionalSecondaryOutput, inputs[]);"
+        ],
+        "scope": "zenscript",
+        "description": "betterwithCrucible betterwithCrucible add"
+    },
+    "betterwithCrucible_betterwithCrucible_remove": {
+        "prefix": "betterwithCrucible.remove",
+        "body": [
+            "mods.betterwithmods.Crucible.remove(output);"
+        ],
+        "scope": "zenscript",
+        "description": "betterwithCrucible betterwithCrucible remove"
+    },
+    "betterwithKiln_betterwithKiln_add": {
+        "prefix": "betterwithKiln.add",
+        "body": [
+            "mods.betterwithmods.Kiln.add(output[], input);"
+        ],
+        "scope": "zenscript",
+        "description": "betterwithKiln betterwithKiln add"
+    },
+    "betterwithKiln_betterwithKiln_remove": {
+        "prefix": "betterwithKiln.remove",
+        "body": [
+            "mods.betterwithmods.Kiln.remove(input);"
+        ],
+        "scope": "zenscript",
+        "description": "betterwithKiln betterwithKiln remove"
+    },
+    "betterwithKiln_betterwithKiln_registerBlock": {
+        "prefix": "betterwithKiln.registerBlock",
+        "body": [
+            "mods.betterwithmods.Kiln.registerBlock(block);"
+        ],
+        "scope": "zenscript",
+        "description": "betterwithKiln betterwithKiln registerBlock"
+    },
+    "betterwithMill_betterwithMill_add": {
+        "prefix": "betterwithMill.add",
+        "body": [
+            "mods.betterwithmods.Mill.add(output, optionalSecondaryOutput, inputs[]);"
+        ],
+        "scope": "zenscript",
+        "description": "betterwithMill betterwithMill add"
+    },
+    "betterwithMill_betterwithMill_remove": {
+        "prefix": "betterwithMill.remove",
+        "body": [
+            "mods.betterwithmods.Mill.remove(output);"
+        ],
+        "scope": "zenscript",
+        "description": "betterwithMill betterwithMill remove"
+    },
+    "betterwithMovement_betterwithMovement_set": {
+        "prefix": "betterwithMovement.set",
+        "body": [
+            "mods.betterwithmods.Movement.set(input, speed);"
+        ],
+        "scope": "zenscript",
+        "description": "betterwithMovement betterwithMovement set"
+    },
+    "betterwithSaw_betterwithSaw_add": {
+        "prefix": "betterwithSaw.add",
+        "body": [
+            "mods.betterwithmods.Saw.add(output[], input);"
+        ],
+        "scope": "zenscript",
+        "description": "betterwithSaw betterwithSaw add"
+    },
+    "betterwithSaw_betterwithSaw_remove": {
+        "prefix": "betterwithSaw.remove",
+        "body": [
+            "mods.betterwithmods.Saw.remove(input);"
+        ],
+        "scope": "zenscript",
+        "description": "betterwithSaw betterwithSaw remove"
+    },
+    "betterwithStokedCauldron_betterwithStokedCauldron_add": {
+        "prefix": "betterwithStokedCauldron.add",
+        "body": [
+            "mods.betterwithmods.StokedCauldron.add(output, optionalSecondaryOutput, inputs[]);"
+        ],
+        "scope": "zenscript",
+        "description": "betterwithStokedCauldron betterwithStokedCauldron add"
+    },
+    "betterwithStokedCauldron_betterwithStokedCauldron_remove": {
+        "prefix": "betterwithStokedCauldron.remove",
+        "body": [
+            "mods.betterwithmods.StokedCauldron.remove(output);"
+        ],
+        "scope": "zenscript",
+        "description": "betterwithStokedCauldron betterwithStokedCauldron remove"
+    },
+    "betterwithStokedCrucible_betterwithStokedCrucible_add": {
+        "prefix": "betterwithStokedCrucible.add",
+        "body": [
+            "mods.betterwithmods.StokedCrucible.add(output, optionalSecondaryOutput, inputs[]);"
+        ],
+        "scope": "zenscript",
+        "description": "betterwithStokedCrucible betterwithStokedCrucible add"
+    },
+    "betterwithStokedCrucible_betterwithStokedCrucible_remove": {
+        "prefix": "betterwithStokedCrucible.remove",
+        "body": [
+            "mods.betterwithmods.StokedCrucible.remove(output, optionalSecondary);"
+        ],
+        "scope": "zenscript",
+        "description": "betterwithStokedCrucible betterwithStokedCrucible remove"
+    },
+    "betterwithTurntable_betterwithTurntable_add": {
+        "prefix": "betterwithTurntable.add",
+        "body": [
+            "mods.betterwithmods.Turntable.add(inputBlock, outputBlock, additionalOutput[]);"
+        ],
+        "scope": "zenscript",
+        "description": "betterwithTurntable betterwithTurntable add"
+    },
+    "betterwithTurntable_betterwithTurntable_remove": {
+        "prefix": "betterwithTurntable.remove",
+        "body": [
+            "mods.betterwithmods.Turntable.remove(inputBlock);"
+        ],
+        "scope": "zenscript",
+        "description": "betterwithTurntable betterwithTurntable remove"
+    },
+    "botania_Apothecary_addRecipe": {
+        "prefix": "Apothecary.addRecipe",
+        "body": [
+            "mods.botania.Apothecary.addRecipe(output, input[]);"
+        ],
+        "scope": "zenscript",
+        "description": "botania Apothecary addRecipe"
+    },
+    "botania_Apothecary_removeRecipe": {
+        "prefix": "Apothecary.removeRecipe",
+        "body": [
+            "mods.botania.Apothecary.removeRecipe(output);"
+        ],
+        "scope": "zenscript",
+        "description": "botania Apothecary removeRecipe"
+    },
+    "botania_Brew_addRecipe": {
+        "prefix": "Brew.addRecipe",
+        "body": [
+            "mods.botania.Brew.addRecipe(inputItems[], brewName);"
+        ],
+        "scope": "zenscript",
+        "description": "botania Brew addRecipe"
+    },
+    "botania_Brew_removeRecipe": {
+        "prefix": "Brew.removeRecipe",
+        "body": [
+            "mods.botania.Brew.removeRecipe(brewName);"
+        ],
+        "scope": "zenscript",
+        "description": "botania Brew removeRecipe"
+    },
+    "botania_ElvenTrade_addRecipe": {
+        "prefix": "ElvenTrade.addRecipe",
+        "body": [
+            "mods.botania.ElvenTrade.addRecipe(outputs[], input[]);"
+        ],
+        "scope": "zenscript",
+        "description": "botania ElvenTrade addRecipe"
+    },
+    "botania_ElvenTrade_removeRecipe": {
+        "prefix": "ElvenTrade.removeRecipe",
+        "body": [
+            "mods.botania.ElvenTrade.removeRecipe(output);"
+        ],
+        "scope": "zenscript",
+        "description": "botania ElvenTrade removeRecipe"
+    },
+    "botania_Lexicon_addBrewPage": {
+        "prefix": "Lexicon.addBrewPage",
+        "body": [
+            "mods.botania.Lexicon.addBrewPage(name, entry, page_number, brew, recipe[], bottomText);"
+        ],
+        "scope": "zenscript",
+        "description": "botania Lexicon addBrewPage"
+    },
+    "botania_Lexicon_addCraftingPage": {
+        "prefix": "Lexicon.addCraftingPage",
+        "body": [
+            "mods.botania.Lexicon.addCraftingPage(name, entry, page_number, recipeNames...);"
+        ],
+        "scope": "zenscript",
+        "description": "botania Lexicon addCraftingPage"
+    },
+    "botania_Lexicon_addElvenPage": {
+        "prefix": "Lexicon.addElvenPage",
+        "body": [
+            "mods.botania.Lexicon.addElvenPage(name, entry, page_number, outputs[], inputs[][]);"
+        ],
+        "scope": "zenscript",
+        "description": "botania Lexicon addElvenPage"
+    },
+    "botania_Lexicon_addEntityPage": {
+        "prefix": "Lexicon.addEntityPage",
+        "body": [
+            "mods.botania.Lexicon.addEntityPage(name, entry, page_number, entity, size);"
+        ],
+        "scope": "zenscript",
+        "description": "botania Lexicon addEntityPage"
+    },
+    "botania_Lexicon_addImagePage": {
+        "prefix": "Lexicon.addImagePage",
+        "body": [
+            "mods.botania.Lexicon.addImagePage(name, entry, page_number, resource);"
+        ],
+        "scope": "zenscript",
+        "description": "botania Lexicon addImagePage"
+    },
+    "botania_Lexicon_addLorePage": {
+        "prefix": "Lexicon.addLorePage",
+        "body": [
+            "mods.botania.Lexicon.addLorePage(name, entry, page_number);"
+        ],
+        "scope": "zenscript",
+        "description": "botania Lexicon addLorePage"
+    },
+    "botania_Lexicon_addInfusionPage": {
+        "prefix": "Lexicon.addInfusionPage",
+        "body": [
+            "mods.botania.Lexicon.addInfusionPage(name, entry, page_number, outputs[], inputs[], mana[]);"
+        ],
+        "scope": "zenscript",
+        "description": "botania Lexicon addInfusionPage"
+    },
+    "botania_Lexicon_addAlchemyPage": {
+        "prefix": "Lexicon.addAlchemyPage",
+        "body": [
+            "mods.botania.Lexicon.addAlchemyPage(name, entry, page_number, outputs[], inputs[], mana[]);"
+        ],
+        "scope": "zenscript",
+        "description": "botania Lexicon addAlchemyPage"
+    },
+    "botania_Lexicon_addConjurationPage": {
+        "prefix": "Lexicon.addConjurationPage",
+        "body": [
+            "mods.botania.Lexicon.addConjurationPage(name, entry, page_number, outputs[], inputs[], mana[]);"
+        ],
+        "scope": "zenscript",
+        "description": "botania Lexicon addConjurationPage"
+    },
+    "botania_Lexicon_addPetalPage": {
+        "prefix": "Lexicon.addPetalPage",
+        "body": [
+            "mods.botania.Lexicon.addPetalPage(name, entry, page_number, outputs[], inputs[][]);"
+        ],
+        "scope": "zenscript",
+        "description": "botania Lexicon addPetalPage"
+    },
+    "botania_Lexicon_addRunePage": {
+        "prefix": "Lexicon.addRunePage",
+        "body": [
+            "mods.botania.Lexicon.addRunePage(name, entry, page_number, outputs[], inputs[][], mana[]);"
+        ],
+        "scope": "zenscript",
+        "description": "botania Lexicon addRunePage"
+    },
+    "botania_Lexicon_addTextPage": {
+        "prefix": "Lexicon.addTextPage",
+        "body": [
+            "mods.botania.Lexicon.addTextPage(name, entry, page_number);"
+        ],
+        "scope": "zenscript",
+        "description": "botania Lexicon addTextPage"
+    },
+    "botania_Lexicon_removePage": {
+        "prefix": "Lexicon.removePage",
+        "body": [
+            "mods.botania.Lexicon.removePage(entry, page_number);"
+        ],
+        "scope": "zenscript",
+        "description": "botania Lexicon removePage"
+    },
+    "botania_Lexicon_addEntry": {
+        "prefix": "Lexicon.addEntry",
+        "body": [
+            "mods.botania.Lexicon.addEntry(entry, category, stack);"
+        ],
+        "scope": "zenscript",
+        "description": "botania Lexicon addEntry"
+    },
+    "botania_Lexicon_removeEntry": {
+        "prefix": "Lexicon.removeEntry",
+        "body": [
+            "mods.botania.Lexicon.removeEntry(entry);"
+        ],
+        "scope": "zenscript",
+        "description": "botania Lexicon removeEntry"
+    },
+    "botania_Lexicon_setEntryKnowledgeType": {
+        "prefix": "Lexicon.setEntryKnowledgeType",
+        "body": [
+            "mods.botania.Lexicon.setEntryKnowledgeType(entry, knowledgeType);"
+        ],
+        "scope": "zenscript",
+        "description": "botania Lexicon setEntryKnowledgeType"
+    },
+    "botania_Lexicon_addCategory": {
+        "prefix": "Lexicon.addCategory",
+        "body": [
+            "mods.botania.Lexicon.addCategory(name);"
+        ],
+        "scope": "zenscript",
+        "description": "botania Lexicon addCategory"
+    },
+    "botania_Lexicon_removeCategory": {
+        "prefix": "Lexicon.removeCategory",
+        "body": [
+            "mods.botania.Lexicon.removeCategory(name);"
+        ],
+        "scope": "zenscript",
+        "description": "botania Lexicon removeCategory"
+    },
+    "botania_Lexicon_setCategoryPriority": {
+        "prefix": "Lexicon.setCategoryPriority",
+        "body": [
+            "mods.botania.Lexicon.setCategoryPriority(name, priority);"
+        ],
+        "scope": "zenscript",
+        "description": "botania Lexicon setCategoryPriority"
+    },
+    "botania_Lexicon_setCategoryIcon": {
+        "prefix": "Lexicon.setCategoryIcon",
+        "body": [
+            "mods.botania.Lexicon.setCategoryIcon(name, icon);"
+        ],
+        "scope": "zenscript",
+        "description": "botania Lexicon setCategoryIcon"
+    },
+    "botania_Lexicon_addRecipeMapping": {
+        "prefix": "Lexicon.addRecipeMapping",
+        "body": [
+            "mods.botania.Lexicon.addRecipeMapping(stack, entry, page);"
+        ],
+        "scope": "zenscript",
+        "description": "botania Lexicon addRecipeMapping"
+    },
+    "botania_Lexicon_removeRecipeMapping": {
+        "prefix": "Lexicon.removeRecipeMapping",
+        "body": [
+            "mods.botania.Lexicon.removeRecipeMapping(stack);"
+        ],
+        "scope": "zenscript",
+        "description": "botania Lexicon removeRecipeMapping"
+    },
+    "botania_ManaInfusion_addInfusion": {
+        "prefix": "ManaInfusion.addInfusion",
+        "body": [
+            "mods.botania.ManaInfusion.addInfusion(output, input, mana);"
+        ],
+        "scope": "zenscript",
+        "description": "botania ManaInfusion addInfusion"
+    },
+    "botania_ManaInfusion_addAlchemy": {
+        "prefix": "ManaInfusion.addAlchemy",
+        "body": [
+            "mods.botania.ManaInfusion.addAlchemy(output, input, mana);"
+        ],
+        "scope": "zenscript",
+        "description": "botania ManaInfusion addAlchemy"
+    },
+    "botania_ManaInfusion_addConjuration": {
+        "prefix": "ManaInfusion.addConjuration",
+        "body": [
+            "mods.botania.ManaInfusion.addConjuration(output, input, mana);"
+        ],
+        "scope": "zenscript",
+        "description": "botania ManaInfusion addConjuration"
+    },
+    "botania_ManaInfusion_removeRecipe": {
+        "prefix": "ManaInfusion.removeRecipe",
+        "body": [
+            "mods.botania.ManaInfusion.removeRecipe(output);"
+        ],
+        "scope": "zenscript",
+        "description": "botania ManaInfusion removeRecipe"
+    },
+    "botania_Orechid_addOre": {
+        "prefix": "Orechid.addOre",
+        "body": [
+            "mods.botania.Orechid.addOre(oreDict, weight);"
+        ],
+        "scope": "zenscript",
+        "description": "botania Orechid addOre"
+    },
+    "botania_Orechid_removeOre": {
+        "prefix": "Orechid.removeOre",
+        "body": [
+            "mods.botania.Orechid.removeOre(oreDict);"
+        ],
+        "scope": "zenscript",
+        "description": "botania Orechid removeOre"
+    },
+    "botania_OrechidIgnem_addOre": {
+        "prefix": "OrechidIgnem.addOre",
+        "body": [
+            "mods.botania.OrechidIgnem.addOre(oreDict, weight);"
+        ],
+        "scope": "zenscript",
+        "description": "botania OrechidIgnem addOre"
+    },
+    "botania_OrechidIgnem_removeOre": {
+        "prefix": "OrechidIgnem.removeOre",
+        "body": [
+            "mods.botania.OrechidIgnem.removeOre(oreDict);"
+        ],
+        "scope": "zenscript",
+        "description": "botania OrechidIgnem removeOre"
+    },
+    "botania_PureDaisy_addRecipe": {
+        "prefix": "PureDaisy.addRecipe",
+        "body": [
+            "mods.botania.PureDaisy.addRecipe(blockInput, blockOutput);"
+        ],
+        "scope": "zenscript",
+        "description": "botania PureDaisy addRecipe"
+    },
+    "botania_PureDaisy_removeRecipe": {
+        "prefix": "PureDaisy.removeRecipe",
+        "body": [
+            "mods.botania.PureDaisy.removeRecipe(output);"
+        ],
+        "scope": "zenscript",
+        "description": "botania PureDaisy removeRecipe"
+    },
+    "botania_RuneAltar_addRecipe": {
+        "prefix": "RuneAltar.addRecipe",
+        "body": [
+            "mods.botania.RuneAltar.addRecipe(output, input[], mana);"
+        ],
+        "scope": "zenscript",
+        "description": "botania RuneAltar addRecipe"
+    },
+    "botania_RuneAltar_removeRecipe": {
+        "prefix": "RuneAltar.removeRecipe",
+        "body": [
+            "mods.botania.RuneAltar.removeRecipe(output);"
+        ],
+        "scope": "zenscript",
+        "description": "botania RuneAltar removeRecipe"
+    },
+    "extrautils2_Crusher_add": {
+        "prefix": "Crusher.add",
+        "body": [
+            "mods.extrautils2.Crusher.add(output, input, optionalSecondaryOutput, optionalSecondaryChance);"
+        ],
+        "scope": "zenscript",
+        "description": "extrautils2 Crusher add"
+    },
+    "extrautils2_Crusher_remove": {
+        "prefix": "Crusher.remove",
+        "body": [
+            "mods.extrautils2.Crusher.remove(input);"
+        ],
+        "scope": "zenscript",
+        "description": "extrautils2 Crusher remove"
+    },
+    "extrautils2_Resonator_add": {
+        "prefix": "Resonator.add",
+        "body": [
+            "mods.extrautils2.Resonator.add(output, input, energy, optionalAddOwnerTag);"
+        ],
+        "scope": "zenscript",
+        "description": "extrautils2 Resonator add"
+    },
+    "extrautils2_Resonator_remove": {
+        "prefix": "Resonator.remove",
+        "body": [
+            "mods.extrautils2.Resonator.remove(output);"
+        ],
+        "scope": "zenscript",
+        "description": "extrautils2 Resonator remove"
+    },
+    "forestry_Carpenter_addRecipe": {
+        "prefix": "Carpenter.addRecipe",
+        "body": [
+            "mods.forestry.Carpenter.addRecipe(output, ingredients[][], packagingTime, optionalFluidInput, optionalBox);"
+        ],
+        "scope": "zenscript",
+        "description": "forestry Carpenter addRecipe"
+    },
+    "forestry_Carpenter_removeRecipe": {
+        "prefix": "Carpenter.removeRecipe",
+        "body": [
+            "mods.forestry.Carpenter.removeRecipe(output, optionalFluidInput);"
+        ],
+        "scope": "zenscript",
+        "description": "forestry Carpenter removeRecipe"
+    },
+    "forestry_Centrifuge_addRecipe": {
+        "prefix": "Centrifuge.addRecipe",
+        "body": [
+            "mods.forestry.Centrifuge.addRecipe(output[], ingredients, packagingTime);"
+        ],
+        "scope": "zenscript",
+        "description": "forestry Centrifuge addRecipe"
+    },
+    "forestry_Centrifuge_removeRecipe": {
+        "prefix": "Centrifuge.removeRecipe",
+        "body": [
+            "mods.forestry.Centrifuge.removeRecipe(input);"
+        ],
+        "scope": "zenscript",
+        "description": "forestry Centrifuge removeRecipe"
+    },
+    "forestry_Fermenter_addRecipe": {
+        "prefix": "Fermenter.addRecipe",
+        "body": [
+            "mods.forestry.Fermenter.addRecipe(fluidOutput, resource, fluidInput, fermentationValue, fluidOutputModifier);"
+        ],
+        "scope": "zenscript",
+        "description": "forestry Fermenter addRecipe"
+    },
+    "forestry_Fermenter_removeRecipe": {
+        "prefix": "Fermenter.removeRecipe",
+        "body": [
+            "mods.forestry.Fermenter.removeRecipe(input);"
+        ],
+        "scope": "zenscript",
+        "description": "forestry Fermenter removeRecipe"
+    },
+    "forestry_Fermenter_addFuel": {
+        "prefix": "Fermenter.addFuel",
+        "body": [
+            "mods.forestry.Fermenter.addFuel(item, fermentPerCycle, burnDuration);"
+        ],
+        "scope": "zenscript",
+        "description": "forestry Fermenter addFuel"
+    },
+    "forestry_Fermenter_removeFuel": {
+        "prefix": "Fermenter.removeFuel",
+        "body": [
+            "mods.forestry.Fermenter.removeFuel(fermenterItem);"
+        ],
+        "scope": "zenscript",
+        "description": "forestry Fermenter removeFuel"
+    },
+    "forestry_Moistener_addRecipe": {
+        "prefix": "Moistener.addRecipe",
+        "body": [
+            "mods.forestry.Moistener.addRecipe(output, input, packagingTime);"
+        ],
+        "scope": "zenscript",
+        "description": "forestry Moistener addRecipe"
+    },
+    "forestry_Moistener_removeRecipe": {
+        "prefix": "Moistener.removeRecipe",
+        "body": [
+            "mods.forestry.Moistener.removeRecipe(output);"
+        ],
+        "scope": "zenscript",
+        "description": "forestry Moistener removeRecipe"
+    },
+    "forestry_Moistener_addFuel": {
+        "prefix": "Moistener.addFuel",
+        "body": [
+            "mods.forestry.Moistener.addFuel(item, product, moistenerValue, stage);"
+        ],
+        "scope": "zenscript",
+        "description": "forestry Moistener addFuel"
+    },
+    "forestry_Moistener_removeFuel": {
+        "prefix": "Moistener.removeFuel",
+        "body": [
+            "mods.forestry.Moistener.removeFuel(moistenerItem);"
+        ],
+        "scope": "zenscript",
+        "description": "forestry Moistener removeFuel"
+    },
+    "forestry_Squeezer_addRecipe": {
+        "prefix": "Squeezer.addRecipe",
+        "body": [
+            "mods.forestry.Squeezer.addRecipe(fluidOutput, ingredients[], timePerItem, optionalItemOutput);"
+        ],
+        "scope": "zenscript",
+        "description": "forestry Squeezer addRecipe"
+    },
+    "forestry_Squeezer_removeRecipe": {
+        "prefix": "Squeezer.removeRecipe",
+        "body": [
+            "mods.forestry.Squeezer.removeRecipe(liquid, optionalIngredients[]);"
+        ],
+        "scope": "zenscript",
+        "description": "forestry Squeezer removeRecipe"
+    },
+    "forestry_Still_addRecipe": {
+        "prefix": "Still.addRecipe",
+        "body": [
+            "mods.forestry.Still.addRecipe(fluidOutput, fluidInput, timePerUnit);"
+        ],
+        "scope": "zenscript",
+        "description": "forestry Still addRecipe"
+    },
+    "forestry_Still_removeRecipe": {
+        "prefix": "Still.removeRecipe",
+        "body": [
+            "mods.forestry.Still.removeRecipe(output, optionalFluidInput);"
+        ],
+        "scope": "zenscript",
+        "description": "forestry Still removeRecipe"
+    },
+    "forestry_ThermionicFabricator_addSmelting": {
+        "prefix": "ThermionicFabricator.addSmelting",
+        "body": [
+            "mods.forestry.ThermionicFabricator.addSmelting(liquidStack, itemInput, meltingPoint);"
+        ],
+        "scope": "zenscript",
+        "description": "forestry ThermionicFabricator addSmelting"
+    },
+    "forestry_ThermionicFabricator_addCast": {
+        "prefix": "ThermionicFabricator.addCast",
+        "body": [
+            "mods.forestry.ThermionicFabricator.addCast(output, ingredients[][], liquidStack, optionalPlan);"
+        ],
+        "scope": "zenscript",
+        "description": "forestry ThermionicFabricator addCast"
+    },
+    "forestry_ThermionicFabricator_removeSmelting": {
+        "prefix": "ThermionicFabricator.removeSmelting",
+        "body": [
+            "mods.forestry.ThermionicFabricator.removeSmelting(itemInput);"
+        ],
+        "scope": "zenscript",
+        "description": "forestry ThermionicFabricator removeSmelting"
+    },
+    "forestry_ThermionicFabricator_removeCast": {
+        "prefix": "ThermionicFabricator.removeCast",
+        "body": [
+            "mods.forestry.ThermionicFabricator.removeCast(product);"
+        ],
+        "scope": "zenscript",
+        "description": "forestry ThermionicFabricator removeCast"
+    },
+    "refinedstorage_Solderer_addRecipe": {
+        "prefix": "Solderer.addRecipe",
+        "body": [
+            "mods.refinedstorage.Solderer.addRecipe(name, output, time, rows[]);"
+        ],
+        "scope": "zenscript",
+        "description": "refinedstorage Solderer addRecipe"
+    },
+    "refinedstorage_Solderer_removeRecipe": {
+        "prefix": "Solderer.removeRecipe",
+        "body": [
+            "mods.refinedstorage.Solderer.removeRecipe(output);"
+        ],
+        "scope": "zenscript",
+        "description": "refinedstorage Solderer removeRecipe"
+    },
+    "tcomplement_Blacklist_addRecipe": {
+        "prefix": "Blacklist.addRecipe",
+        "body": [
+            "mods.tcomplement.Blacklist.addRecipe(output, input);"
+        ],
+        "scope": "zenscript",
+        "description": "tcomplement Blacklist addRecipe"
+    },
+    "tcomplement_Blacklist_removeRecipe": {
+        "prefix": "Blacklist.removeRecipe",
+        "body": [
+            "mods.tcomplement.Blacklist.removeRecipe(input);"
+        ],
+        "scope": "zenscript",
+        "description": "tcomplement Blacklist removeRecipe"
+    },
+    "tcomplement_Overrides_addRecipe": {
+        "prefix": "Overrides.addRecipe",
+        "body": [
+            "mods.tcomplement.Overrides.addRecipe(output, input, optionalTemp);"
+        ],
+        "scope": "zenscript",
+        "description": "tcomplement Overrides addRecipe"
+    },
+    "tcomplement_Overrides_removeRecipe": {
+        "prefix": "Overrides.removeRecipe",
+        "body": [
+            "mods.tcomplement.Overrides.removeRecipe(output, optionalInput);"
+        ],
+        "scope": "zenscript",
+        "description": "tcomplement Overrides removeRecipe"
+    },
+    "tconstruct_Alloy_addRecipe": {
+        "prefix": "Alloy.addRecipe",
+        "body": [
+            "mods.tconstruct.Alloy.addRecipe(output, inputs[]);"
+        ],
+        "scope": "zenscript",
+        "description": "tconstruct Alloy addRecipe"
+    },
+    "tconstruct_Alloy_removeRecipe": {
+        "prefix": "Alloy.removeRecipe",
+        "body": [
+            "mods.tconstruct.Alloy.removeRecipe(output, optionalInput[]);"
+        ],
+        "scope": "zenscript",
+        "description": "tconstruct Alloy removeRecipe"
+    },
+    "tconstruct_Casting_addTableRecipe": {
+        "prefix": "Casting.addTableRecipe",
+        "body": [
+            "mods.tconstruct.Casting.addTableRecipe(output, cast, fluid, amount, optionalConsumeCast);"
+        ],
+        "scope": "zenscript",
+        "description": "tconstruct Casting addTableRecipe"
+    },
+    "tconstruct_Casting_addBasinRecipe": {
+        "prefix": "Casting.addBasinRecipe",
+        "body": [
+            "mods.tconstruct.Casting.addBasinRecipe(output, cast, fluid, amount, optionalConsumeCast);"
+        ],
+        "scope": "zenscript",
+        "description": "tconstruct Casting addBasinRecipe"
+    },
+    "tconstruct_Casting_removeTableRecipe": {
+        "prefix": "Casting.removeTableRecipe",
+        "body": [
+            "mods.tconstruct.Casting.removeTableRecipe(output, optionalInput);"
+        ],
+        "scope": "zenscript",
+        "description": "tconstruct Casting removeTableRecipe"
+    },
+    "tconstruct_Casting_removeBasinRecipe": {
+        "prefix": "Casting.removeBasinRecipe",
+        "body": [
+            "mods.tconstruct.Casting.removeBasinRecipe(output, optionalInput);"
+        ],
+        "scope": "zenscript",
+        "description": "tconstruct Casting removeBasinRecipe"
+    },
+    "tconstruct_Drying_addRecipe": {
+        "prefix": "Drying.addRecipe",
+        "body": [
+            "mods.tconstruct.Drying.addRecipe(output, input, time);"
+        ],
+        "scope": "zenscript",
+        "description": "tconstruct Drying addRecipe"
+    },
+    "tconstruct_Drying_removeRecipe": {
+        "prefix": "Drying.removeRecipe",
+        "body": [
+            "mods.tconstruct.Drying.removeRecipe(output, optionalInput);"
+        ],
+        "scope": "zenscript",
+        "description": "tconstruct Drying removeRecipe"
+    },
+    "tconstruct_Fuel_registerFuel": {
+        "prefix": "Fuel.registerFuel",
+        "body": [
+            "mods.tconstruct.Fuel.registerFuel(fluid, duration);"
+        ],
+        "scope": "zenscript",
+        "description": "tconstruct Fuel registerFuel"
+    },
+    "tconstruct_Melting_addRecipe": {
+        "prefix": "Melting.addRecipe",
+        "body": [
+            "mods.tconstruct.Melting.addRecipe(output, input, optionalTemp);"
+        ],
+        "scope": "zenscript",
+        "description": "tconstruct Melting addRecipe"
+    },
+    "tconstruct_Melting_addEntityMelting": {
+        "prefix": "Melting.addEntityMelting",
+        "body": [
+            "mods.tconstruct.Melting.addEntityMelting(entity, stack);"
+        ],
+        "scope": "zenscript",
+        "description": "tconstruct Melting addEntityMelting"
+    },
+    "tconstruct_Melting_removeRecipe": {
+        "prefix": "Melting.removeRecipe",
+        "body": [
+            "mods.tconstruct.Melting.removeRecipe(output, optionalInput);"
+        ],
+        "scope": "zenscript",
+        "description": "tconstruct Melting removeRecipe"
+    },
+    "tconstruct_Melting_removeEntityMelting": {
+        "prefix": "Melting.removeEntityMelting",
+        "body": [
+            "mods.tconstruct.Melting.removeEntityMelting(entity);"
+        ],
+        "scope": "zenscript",
+        "description": "tconstruct Melting removeEntityMelting"
+    },
+    "thermalexpansion_Centrifuge_addRecipe": {
+        "prefix": "Centrifuge.addRecipe",
+        "body": [
+            "mods.thermalexpansion.Centrifuge.addRecipe(outputs[], input, fluid, energy);"
+        ],
+        "scope": "zenscript",
+        "description": "thermalexpansion Centrifuge addRecipe"
+    },
+    "thermalexpansion_Centrifuge_removeRecipe": {
+        "prefix": "Centrifuge.removeRecipe",
+        "body": [
+            "mods.thermalexpansion.Centrifuge.removeRecipe(input);"
+        ],
+        "scope": "zenscript",
+        "description": "thermalexpansion Centrifuge removeRecipe"
+    },
+    "thermalexpansion_Compactor_addMintRecipe": {
+        "prefix": "Compactor.addMintRecipe",
+        "body": [
+            "mods.thermalexpansion.Compactor.addMintRecipe(output, input, energy);"
+        ],
+        "scope": "zenscript",
+        "description": "thermalexpansion Compactor addMintRecipe"
+    },
+    "thermalexpansion_Compactor_addPressRecipe": {
+        "prefix": "Compactor.addPressRecipe",
+        "body": [
+            "mods.thermalexpansion.Compactor.addPressRecipe(output, input, energy);"
+        ],
+        "scope": "zenscript",
+        "description": "thermalexpansion Compactor addPressRecipe"
+    },
+    "thermalexpansion_Compactor_addStorageRecipe": {
+        "prefix": "Compactor.addStorageRecipe",
+        "body": [
+            "mods.thermalexpansion.Compactor.addStorageRecipe(output, input, energy);"
+        ],
+        "scope": "zenscript",
+        "description": "thermalexpansion Compactor addStorageRecipe"
+    },
+    "thermalexpansion_Compactor_addGearRecipe": {
+        "prefix": "Compactor.addGearRecipe",
+        "body": [
+            "mods.thermalexpansion.Compactor.addGearRecipe(output, input, energy);"
+        ],
+        "scope": "zenscript",
+        "description": "thermalexpansion Compactor addGearRecipe"
+    },
+    "thermalexpansion_Compactor_removeMintRecipe": {
+        "prefix": "Compactor.removeMintRecipe",
+        "body": [
+            "mods.thermalexpansion.Compactor.removeMintRecipe(input);"
+        ],
+        "scope": "zenscript",
+        "description": "thermalexpansion Compactor removeMintRecipe"
+    },
+    "thermalexpansion_Compactor_removePressRecipe": {
+        "prefix": "Compactor.removePressRecipe",
+        "body": [
+            "mods.thermalexpansion.Compactor.removePressRecipe(input);"
+        ],
+        "scope": "zenscript",
+        "description": "thermalexpansion Compactor removePressRecipe"
+    },
+    "thermalexpansion_Compactor_removeStorageRecipe": {
+        "prefix": "Compactor.removeStorageRecipe",
+        "body": [
+            "mods.thermalexpansion.Compactor.removeStorageRecipe(input);"
+        ],
+        "scope": "zenscript",
+        "description": "thermalexpansion Compactor removeStorageRecipe"
+    },
+    "thermalexpansion_Compactor_removeGearRecipe": {
+        "prefix": "Compactor.removeGearRecipe",
+        "body": [
+            "mods.thermalexpansion.Compactor.removeGearRecipe(input);"
+        ],
+        "scope": "zenscript",
+        "description": "thermalexpansion Compactor removeGearRecipe"
+    },
+    "thermalexpansion_Crucible_addRecipe": {
+        "prefix": "Crucible.addRecipe",
+        "body": [
+            "mods.thermalexpansion.Crucible.addRecipe(output, input, energy);"
+        ],
+        "scope": "zenscript",
+        "description": "thermalexpansion Crucible addRecipe"
+    },
+    "thermalexpansion_Crucible_removeRecipe": {
+        "prefix": "Crucible.removeRecipe",
+        "body": [
+            "mods.thermalexpansion.Crucible.removeRecipe(input);"
+        ],
+        "scope": "zenscript",
+        "description": "thermalexpansion Crucible removeRecipe"
+    },
+    "thermalexpansion_Enchanter_addRecipe": {
+        "prefix": "Enchanter.addRecipe",
+        "body": [
+            "mods.thermalexpansion.Enchanter.addRecipe(output, input, secondInput, energy, experience, empowered);"
+        ],
+        "scope": "zenscript",
+        "description": "thermalexpansion Enchanter addRecipe"
+    },
+    "thermalexpansion_Enchanter_removeRecipe": {
+        "prefix": "Enchanter.removeRecipe",
+        "body": [
+            "mods.thermalexpansion.Enchanter.removeRecipe(input, secondInput);"
+        ],
+        "scope": "zenscript",
+        "description": "thermalexpansion Enchanter removeRecipe"
+    },
+    "thermalexpansion_Imbuer_addRecipe": {
+        "prefix": "Imbuer.addRecipe",
+        "body": [
+            "mods.thermalexpansion.Imbuer.addRecipe(output, input, inputFluid, energy);"
+        ],
+        "scope": "zenscript",
+        "description": "thermalexpansion Imbuer addRecipe"
+    },
+    "thermalexpansion_Imbuer_removeRecipe": {
+        "prefix": "Imbuer.removeRecipe",
+        "body": [
+            "mods.thermalexpansion.Imbuer.removeRecipe(input, secondInput);"
+        ],
+        "scope": "zenscript",
+        "description": "thermalexpansion Imbuer removeRecipe"
+    },
+    "thermalexpansion_InductionSmelter_addRecipe": {
+        "prefix": "InductionSmelter.addRecipe",
+        "body": [
+            "mods.thermalexpansion.InductionSmelter.addRecipe(primaryOutput, primaryInput, secondaryInput, energy, optionalSecondaryOutput, optionalSecondaryChance);"
+        ],
+        "scope": "zenscript",
+        "description": "thermalexpansion InductionSmelter addRecipe"
+    },
+    "thermalexpansion_InductionSmelter_removeRecipe": {
+        "prefix": "InductionSmelter.removeRecipe",
+        "body": [
+            "mods.thermalexpansion.InductionSmelter.removeRecipe(primaryInput, secondaryInput);"
+        ],
+        "scope": "zenscript",
+        "description": "thermalexpansion InductionSmelter removeRecipe"
+    },
+    "thermalexpansion_Infuser_addRecipe": {
+        "prefix": "Infuser.addRecipe",
+        "body": [
+            "mods.thermalexpansion.Infuser.addRecipe(output, input, energy);"
+        ],
+        "scope": "zenscript",
+        "description": "thermalexpansion Infuser addRecipe"
+    },
+    "thermalexpansion_Infuser_removeRecipe": {
+        "prefix": "Infuser.removeRecipe",
+        "body": [
+            "mods.thermalexpansion.Infuser.removeRecipe(input);"
+        ],
+        "scope": "zenscript",
+        "description": "thermalexpansion Infuser removeRecipe"
+    },
+    "thermalexpansion_Insolator_addRecipe": {
+        "prefix": "Insolator.addRecipe",
+        "body": [
+            "mods.thermalexpansion.Insolator.addRecipe(primaryOutput, primaryInput, secondaryInput, energy, optionalSecondaryOutput, optionalSecondaryChance);"
+        ],
+        "scope": "zenscript",
+        "description": "thermalexpansion Insolator addRecipe"
+    },
+    "thermalexpansion_Insolator_removeRecipe": {
+        "prefix": "Insolator.removeRecipe",
+        "body": [
+            "mods.thermalexpansion.Insolator.removeRecipe(primaryInput, secondaryInput);"
+        ],
+        "scope": "zenscript",
+        "description": "thermalexpansion Insolator removeRecipe"
+    },
+    "thermalexpansion_Pulverizer_addRecipe": {
+        "prefix": "Pulverizer.addRecipe",
+        "body": [
+            "mods.thermalexpansion.Pulverizer.addRecipe(output, input, energy, optionalSecondaryOutput, optionalSecondaryChance);"
+        ],
+        "scope": "zenscript",
+        "description": "thermalexpansion Pulverizer addRecipe"
+    },
+    "thermalexpansion_Pulverizer_removeRecipe": {
+        "prefix": "Pulverizer.removeRecipe",
+        "body": [
+            "mods.thermalexpansion.Pulverizer.removeRecipe(input);"
+        ],
+        "scope": "zenscript",
+        "description": "thermalexpansion Pulverizer removeRecipe"
+    },
+    "thermalexpansion_RedstoneFurnace_addRecipe": {
+        "prefix": "RedstoneFurnace.addRecipe",
+        "body": [
+            "mods.thermalexpansion.RedstoneFurnace.addRecipe(output, input, energy);"
+        ],
+        "scope": "zenscript",
+        "description": "thermalexpansion RedstoneFurnace addRecipe"
+    },
+    "thermalexpansion_RedstoneFurnace_addPyrolysisRecipe": {
+        "prefix": "RedstoneFurnace.addPyrolysisRecipe",
+        "body": [
+            "mods.thermalexpansion.RedstoneFurnace.addPyrolysisRecipe(output, input, energy, creosote);"
+        ],
+        "scope": "zenscript",
+        "description": "thermalexpansion RedstoneFurnace addPyrolysisRecipe"
+    },
+    "thermalexpansion_RedstoneFurnace_removeRecipe": {
+        "prefix": "RedstoneFurnace.removeRecipe",
+        "body": [
+            "mods.thermalexpansion.RedstoneFurnace.removeRecipe(input);"
+        ],
+        "scope": "zenscript",
+        "description": "thermalexpansion RedstoneFurnace removeRecipe"
+    },
+    "thermalexpansion_RedstoneFurnace_removePyrolysisRecipe": {
+        "prefix": "RedstoneFurnace.removePyrolysisRecipe",
+        "body": [
+            "mods.thermalexpansion.RedstoneFurnace.removePyrolysisRecipe(input);"
+        ],
+        "scope": "zenscript",
+        "description": "thermalexpansion RedstoneFurnace removePyrolysisRecipe"
+    },
+    "thermalexpansion_Refinery_addRecipe": {
+        "prefix": "Refinery.addRecipe",
+        "body": [
+            "mods.thermalexpansion.Refinery.addRecipe(output, outputItem, input, energy);"
+        ],
+        "scope": "zenscript",
+        "description": "thermalexpansion Refinery addRecipe"
+    },
+    "thermalexpansion_Refinery_removeRecipe": {
+        "prefix": "Refinery.removeRecipe",
+        "body": [
+            "mods.thermalexpansion.Refinery.removeRecipe(input);"
+        ],
+        "scope": "zenscript",
+        "description": "thermalexpansion Refinery removeRecipe"
+    },
+    "thermalexpansion_Sawmill_addRecipe": {
+        "prefix": "Sawmill.addRecipe",
+        "body": [
+            "mods.thermalexpansion.Sawmill.addRecipe(output, input, energy, optionalSecondaryOutput, optionalSecondaryChance);"
+        ],
+        "scope": "zenscript",
+        "description": "thermalexpansion Sawmill addRecipe"
+    },
+    "thermalexpansion_Sawmill_removeRecipe": {
+        "prefix": "Sawmill.removeRecipe",
+        "body": [
+            "mods.thermalexpansion.Sawmill.removeRecipe(input);"
+        ],
+        "scope": "zenscript",
+        "description": "thermalexpansion Sawmill removeRecipe"
+    },
+    "thermalexpansion_Transposer_addExtractRecipe": {
+        "prefix": "Transposer.addExtractRecipe",
+        "body": [
+            "mods.thermalexpansion.Transposer.addExtractRecipe(output, input, energy, optionalItemOut);"
+        ],
+        "scope": "zenscript",
+        "description": "thermalexpansion Transposer addExtractRecipe"
+    },
+    "thermalexpansion_Transposer_removeExtractRecipe": {
+        "prefix": "Transposer.removeExtractRecipe",
+        "body": [
+            "mods.thermalexpansion.Transposer.removeExtractRecipe(input);"
+        ],
+        "scope": "zenscript",
+        "description": "thermalexpansion Transposer removeExtractRecipe"
+    },
+    "thermalexpansion_Transposer_addFillRecipe": {
+        "prefix": "Transposer.addFillRecipe",
+        "body": [
+            "mods.thermalexpansion.Transposer.addFillRecipe(output, input, fluid, energy);"
+        ],
+        "scope": "zenscript",
+        "description": "thermalexpansion Transposer addFillRecipe"
+    },
+    "thermalexpansion_Transposer_removeFillRecipe": {
+        "prefix": "Transposer.removeFillRecipe",
+        "body": [
+            "mods.thermalexpansion.Transposer.removeFillRecipe(input, fluid);"
+        ],
+        "scope": "zenscript",
+        "description": "thermalexpansion Transposer removeFillRecipe"
+    },
+    "abyssalcraft_CreationRitual_addRitual": {
+        "prefix": "CreationRitual.addRitual",
+        "body": [
+            "mods.abyssalcraft.CreationRitual.addRitual(unlocalizedName, bookType, dimension, requiredEnergy, requiresSacrifice, item, offerings...);"
+        ],
+        "scope": "zenscript",
+        "description": "abyssalcraft CreationRitual addRitual"
+    },
+    "abyssalcraft_CreationRitual_removeRitual": {
+        "prefix": "CreationRitual.removeRitual",
+        "body": [
+            "mods.abyssalcraft.CreationRitual.removeRitual(item);"
+        ],
+        "scope": "zenscript",
+        "description": "abyssalcraft CreationRitual removeRitual"
+    },
+    "abyssalcraft_Crystallizer_addCrystallization": {
+        "prefix": "Crystallizer.addCrystallization",
+        "body": [
+            "mods.abyssalcraft.Crystallizer.addCrystallization(input, output1, output2, exp);"
+        ],
+        "scope": "zenscript",
+        "description": "abyssalcraft Crystallizer addCrystallization"
+    },
+    "abyssalcraft_Crystallizer_addSingleCrystallization": {
+        "prefix": "Crystallizer.addSingleCrystallization",
+        "body": [
+            "mods.abyssalcraft.Crystallizer.addSingleCrystallization(input, output, exp);"
+        ],
+        "scope": "zenscript",
+        "description": "abyssalcraft Crystallizer addSingleCrystallization"
+    },
+    "abyssalcraft_Crystallizer_removeCrystallization": {
+        "prefix": "Crystallizer.removeCrystallization",
+        "body": [
+            "mods.abyssalcraft.Crystallizer.removeCrystallization(input);"
+        ],
+        "scope": "zenscript",
+        "description": "abyssalcraft Crystallizer removeCrystallization"
+    },
+    "abyssalcraft_EnchantmentRitual_addRitual": {
+        "prefix": "EnchantmentRitual.addRitual",
+        "body": [
+            "mods.abyssalcraft.EnchantmentRitual.addRitual(unlocalizedName, bookType, dimension, requiredEnergy, requiresSacrifice, enchantment, offerings[]);"
+        ],
+        "scope": "zenscript",
+        "description": "abyssalcraft EnchantmentRitual addRitual"
+    },
+    "abyssalcraft_EnchantmentRitual_removeRitual": {
+        "prefix": "EnchantmentRitual.removeRitual",
+        "body": [
+            "mods.abyssalcraft.EnchantmentRitual.removeRitual(enchantment);"
+        ],
+        "scope": "zenscript",
+        "description": "abyssalcraft EnchantmentRitual removeRitual"
+    },
+    "abyssalcraft_InfusionRitual_addRitual": {
+        "prefix": "InfusionRitual.addRitual",
+        "body": [
+            "mods.abyssalcraft.InfusionRitual.addRitual(unlocalizedName, bookType, dimension, requiredEnergy, remnantHelp, item, sacrifice, offerings...);"
+        ],
+        "scope": "zenscript",
+        "description": "abyssalcraft InfusionRitual addRitual"
+    },
+    "abyssalcraft_InfusionRitual_removeRitual": {
+        "prefix": "InfusionRitual.removeRitual",
+        "body": [
+            "mods.abyssalcraft.InfusionRitual.removeRitual(item);"
+        ],
+        "scope": "zenscript",
+        "description": "abyssalcraft InfusionRitual removeRitual"
+    },
+    "abyssalcraft_internal_addChapter": {
+        "prefix": "internal.addChapter",
+        "body": [
+            "mods.abyssalcraft.necronomicon.internal.addChapter(chapteridentifier, chaptertitle, necrodataidentifier);"
+        ],
+        "scope": "zenscript",
+        "description": "abyssalcraft internal addChapter"
+    },
+    "abyssalcraft_internal_removeChapter": {
+        "prefix": "internal.removeChapter",
+        "body": [
+            "mods.abyssalcraft.necronomicon.internal.removeChapter(chapteridentifier, necrodataidentifier);"
+        ],
+        "scope": "zenscript",
+        "description": "abyssalcraft internal removeChapter"
+    },
+    "abyssalcraft_internal_addNormalPage": {
+        "prefix": "internal.addNormalPage",
+        "body": [
+            "mods.abyssalcraft.necronomicon.internal.addNormalPage(pageNum, pagetext, chapteridentifier, necrodataidentifier);"
+        ],
+        "scope": "zenscript",
+        "description": "abyssalcraft internal addNormalPage"
+    },
+    "abyssalcraft_internal_addItemPage": {
+        "prefix": "internal.addItemPage",
+        "body": [
+            "mods.abyssalcraft.necronomicon.internal.addItemPage(pageNum, stack, pagetext, chapteridentifier, necrodataidentifier);"
+        ],
+        "scope": "zenscript",
+        "description": "abyssalcraft internal addItemPage"
+    },
+    "abyssalcraft_internal_addImagePage": {
+        "prefix": "internal.addImagePage",
+        "body": [
+            "mods.abyssalcraft.necronomicon.internal.addImagePage(pageNum, resourcepath, pagetext, chapteridentifier, necrodataidentifier);"
+        ],
+        "scope": "zenscript",
+        "description": "abyssalcraft internal addImagePage"
+    },
+    "abyssalcraft_internal_addCraftingPage": {
+        "prefix": "internal.addCraftingPage",
+        "body": [
+            "mods.abyssalcraft.necronomicon.internal.addCraftingPage(pageNum, thing, pagetext, chapteridentifier, necrodataidentifier);"
+        ],
+        "scope": "zenscript",
+        "description": "abyssalcraft internal addCraftingPage"
+    },
+    "abyssalcraft_internal_addURLPage": {
+        "prefix": "internal.addURLPage",
+        "body": [
+            "mods.abyssalcraft.necronomicon.internal.addURLPage(pageNum, url, pagetext, chapteridentifier, necrodataidentifier);"
+        ],
+        "scope": "zenscript",
+        "description": "abyssalcraft internal addURLPage"
+    },
+    "abyssalcraft_internal_removePage": {
+        "prefix": "internal.removePage",
+        "body": [
+            "mods.abyssalcraft.necronomicon.internal.removePage(pageNum, chapteridentifier, necrodataidentifier);"
+        ],
+        "scope": "zenscript",
+        "description": "abyssalcraft internal removePage"
+    },
+    "abyssalcraft_PotionAoERitual_addRitual": {
+        "prefix": "PotionAoERitual.addRitual",
+        "body": [
+            "mods.abyssalcraft.PotionAoERitual.addRitual(unlocalizedName, bookType, dimension, requiredEnergy, requiresSacrifice, potion, offerings[]);"
+        ],
+        "scope": "zenscript",
+        "description": "abyssalcraft PotionAoERitual addRitual"
+    },
+    "abyssalcraft_PotionAoERitual_removeRitual": {
+        "prefix": "PotionAoERitual.removeRitual",
+        "body": [
+            "mods.abyssalcraft.PotionAoERitual.removeRitual(potion);"
+        ],
+        "scope": "zenscript",
+        "description": "abyssalcraft PotionAoERitual removeRitual"
+    },
+    "abyssalcraft_PotionRitual_addRitual": {
+        "prefix": "PotionRitual.addRitual",
+        "body": [
+            "mods.abyssalcraft.PotionRitual.addRitual(unlocalizedName, bookType, dimension, requiredEnergy, requiresSacrifice, potion, offerings[]);"
+        ],
+        "scope": "zenscript",
+        "description": "abyssalcraft PotionRitual addRitual"
+    },
+    "abyssalcraft_PotionRitual_removeRitual": {
+        "prefix": "PotionRitual.removeRitual",
+        "body": [
+            "mods.abyssalcraft.PotionRitual.removeRitual(potion);"
+        ],
+        "scope": "zenscript",
+        "description": "abyssalcraft PotionRitual removeRitual"
+    },
+    "abyssalcraft_shoggoth_addShoggothFood": {
+        "prefix": "shoggoth.addShoggothFood",
+        "body": [
+            "mods.abyssalcraft.shoggoth.addShoggothFood(clazz);"
+        ],
+        "scope": "zenscript",
+        "description": "abyssalcraft shoggoth addShoggothFood"
+    },
+    "abyssalcraft_Transmutator_addTransmutation": {
+        "prefix": "Transmutator.addTransmutation",
+        "body": [
+            "mods.abyssalcraft.Transmutator.addTransmutation(input, output, exp);"
+        ],
+        "scope": "zenscript",
+        "description": "abyssalcraft Transmutator addTransmutation"
+    },
+    "abyssalcraft_Transmutator_removeTransmutation": {
+        "prefix": "Transmutator.removeTransmutation",
+        "body": [
+            "mods.abyssalcraft.Transmutator.removeTransmutation(input);"
+        ],
+        "scope": "zenscript",
+        "description": "abyssalcraft Transmutator removeTransmutation"
+    },
+    "abyssalcraft_UpgradeKit_addUpgrade": {
+        "prefix": "UpgradeKit.addUpgrade",
+        "body": [
+            "mods.abyssalcraft.UpgradeKit.addUpgrade(kit, input, output);"
+        ],
+        "scope": "zenscript",
+        "description": "abyssalcraft UpgradeKit addUpgrade"
+    },
+    "abyssalcraft_UpgradeKit_removeUpgrade": {
+        "prefix": "UpgradeKit.removeUpgrade",
+        "body": [
+            "mods.abyssalcraft.UpgradeKit.removeUpgrade(input);"
+        ],
+        "scope": "zenscript",
+        "description": "abyssalcraft UpgradeKit removeUpgrade"
+    },
+    "armorplus_ChampionBench_addShapeless": {
+        "prefix": "ChampionBench.addShapeless",
+        "body": [
+            "mods.armorplus.ChampionBench.addShapeless(output, ingredients[]);"
+        ],
+        "scope": "zenscript",
+        "description": "armorplus ChampionBench addShapeless"
+    },
+    "armorplus_ChampionBench_addShaped": {
+        "prefix": "ChampionBench.addShaped",
+        "body": [
+            "mods.armorplus.ChampionBench.addShaped(output, ingredients[][]);"
+        ],
+        "scope": "zenscript",
+        "description": "armorplus ChampionBench addShaped"
+    },
+    "armorplus_ChampionBench_remove": {
+        "prefix": "ChampionBench.remove",
+        "body": [
+            "mods.armorplus.ChampionBench.remove(target);"
+        ],
+        "scope": "zenscript",
+        "description": "armorplus ChampionBench remove"
+    },
+    "armorplus_HighTechBench_addShapeless": {
+        "prefix": "HighTechBench.addShapeless",
+        "body": [
+            "mods.armorplus.HighTechBench.addShapeless(output, ingredients[]);"
+        ],
+        "scope": "zenscript",
+        "description": "armorplus HighTechBench addShapeless"
+    },
+    "armorplus_HighTechBench_addShaped": {
+        "prefix": "HighTechBench.addShaped",
+        "body": [
+            "mods.armorplus.HighTechBench.addShaped(output, ingredients[][]);"
+        ],
+        "scope": "zenscript",
+        "description": "armorplus HighTechBench addShaped"
+    },
+    "armorplus_HighTechBench_remove": {
+        "prefix": "HighTechBench.remove",
+        "body": [
+            "mods.armorplus.HighTechBench.remove(target);"
+        ],
+        "scope": "zenscript",
+        "description": "armorplus HighTechBench remove"
+    },
+    "armorplus_UltiTechBench_addShapeless": {
+        "prefix": "UltiTechBench.addShapeless",
+        "body": [
+            "mods.armorplus.UltiTechBench.addShapeless(output, ingredients[]);"
+        ],
+        "scope": "zenscript",
+        "description": "armorplus UltiTechBench addShapeless"
+    },
+    "armorplus_UltiTechBench_addShaped": {
+        "prefix": "UltiTechBench.addShaped",
+        "body": [
+            "mods.armorplus.UltiTechBench.addShaped(output, ingredients[][]);"
+        ],
+        "scope": "zenscript",
+        "description": "armorplus UltiTechBench addShaped"
+    },
+    "armorplus_UltiTechBench_remove": {
+        "prefix": "UltiTechBench.remove",
+        "body": [
+            "mods.armorplus.UltiTechBench.remove(target);"
+        ],
+        "scope": "zenscript",
+        "description": "armorplus UltiTechBench remove"
+    },
+    "armorplus_Workbench_addShapeless": {
+        "prefix": "Workbench.addShapeless",
+        "body": [
+            "mods.armorplus.Workbench.addShapeless(output, ingredients[]);"
+        ],
+        "scope": "zenscript",
+        "description": "armorplus Workbench addShapeless"
+    },
+    "armorplus_Workbench_addShaped": {
+        "prefix": "Workbench.addShaped",
+        "body": [
+            "mods.armorplus.Workbench.addShaped(output, ingredients[][]);"
+        ],
+        "scope": "zenscript",
+        "description": "armorplus Workbench addShaped"
+    },
+    "armorplus_Workbench_remove": {
+        "prefix": "Workbench.remove",
+        "body": [
+            "mods.armorplus.Workbench.remove(target);"
+        ],
+        "scope": "zenscript",
+        "description": "armorplus Workbench remove"
+    },
+    "armorplus_LavaInfuser_addRecipe": {
+        "prefix": "LavaInfuser.addRecipe",
+        "body": [
+            "mods.armorplus.LavaInfuser.addRecipe(output, input, xp);"
+        ],
+        "scope": "zenscript",
+        "description": "armorplus LavaInfuser addRecipe"
+    },
+    "armorplus_LavaInfuser_remove": {
+        "prefix": "LavaInfuser.remove",
+        "body": [
+            "mods.armorplus.LavaInfuser.remove(target);"
+        ],
+        "scope": "zenscript",
+        "description": "armorplus LavaInfuser remove"
+    },
+    "armoreablemobs_ArmorGroup_addEntity": {
+        "prefix": "ArmorGroup.addEntity",
+        "body": [
+            "mods.armoreablemobs.ArmorGroup.addEntity(entity);"
+        ],
+        "scope": "zenscript",
+        "description": "armoreablemobs ArmorGroup addEntity"
+    },
+    "armoreablemobs_ArmorGroup_addArmor": {
+        "prefix": "ArmorGroup.addArmor",
+        "body": [
+            "mods.armoreablemobs.ArmorGroup.addArmor(slot);"
+        ],
+        "scope": "zenscript",
+        "description": "armoreablemobs ArmorGroup addArmor"
+    },
+    "armoreablemobs_ArmorGroup_addGameStage": {
+        "prefix": "ArmorGroup.addGameStage",
+        "body": [
+            "mods.armoreablemobs.ArmorGroup.addGameStage(stage);"
+        ],
+        "scope": "zenscript",
+        "description": "armoreablemobs ArmorGroup addGameStage"
+    },
+    "astralsorcery_Altar_removeAltarRecipe": {
+        "prefix": "Altar.removeAltarRecipe",
+        "body": [
+            "mods.astralsorcery.Altar.removeAltarRecipe(output, altarLevel);"
+        ],
+        "scope": "zenscript",
+        "description": "astralsorcery Altar removeAltarRecipe"
+    },
+    "astralsorcery_Altar_addDiscoveryAltarRecipe": {
+        "prefix": "Altar.addDiscoveryAltarRecipe",
+        "body": [
+            "mods.astralsorcery.Altar.addDiscoveryAltarRecipe(output, starlightRequired, craftingTickTime, inputs[]);"
+        ],
+        "scope": "zenscript",
+        "description": "astralsorcery Altar addDiscoveryAltarRecipe"
+    },
+    "astralsorcery_Altar_addAttunmentAltarRecipe": {
+        "prefix": "Altar.addAttunmentAltarRecipe",
+        "body": [
+            "mods.astralsorcery.Altar.addAttunmentAltarRecipe(output, starlightRequired, craftingTickTime, inputs[]);"
+        ],
+        "scope": "zenscript",
+        "description": "astralsorcery Altar addAttunmentAltarRecipe"
+    },
+    "astralsorcery_Altar_addConstellationAltarRecipe": {
+        "prefix": "Altar.addConstellationAltarRecipe",
+        "body": [
+            "mods.astralsorcery.Altar.addConstellationAltarRecipe(output, starlightRequired, craftingTickTime, inputs[]);"
+        ],
+        "scope": "zenscript",
+        "description": "astralsorcery Altar addConstellationAltarRecipe"
+    },
+    "astralsorcery_StarlightInfusion_addInfusion": {
+        "prefix": "StarlightInfusion.addInfusion",
+        "body": [
+            "mods.astralsorcery.StarlightInfusion.addInfusion(input, output, consumeMultiple, consumptionChance, craftingTickTime);"
+        ],
+        "scope": "zenscript",
+        "description": "astralsorcery StarlightInfusion addInfusion"
+    },
+    "astralsorcery_StarlightInfusion_removeInfusion": {
+        "prefix": "StarlightInfusion.removeInfusion",
+        "body": [
+            "mods.astralsorcery.StarlightInfusion.removeInfusion(output);"
+        ],
+        "scope": "zenscript",
+        "description": "astralsorcery StarlightInfusion removeInfusion"
+    },
+    "astralsorcery_LightTransmutation_addTransmutation": {
+        "prefix": "LightTransmutation.addTransmutation",
+        "body": [
+            "mods.astralsorcery.LightTransmutation.addTransmutation(stackIn, stackOut, cost);"
+        ],
+        "scope": "zenscript",
+        "description": "astralsorcery LightTransmutation addTransmutation"
+    },
+    "astralsorcery_LightTransmutation_removeTransmutation": {
+        "prefix": "LightTransmutation.removeTransmutation",
+        "body": [
+            "mods.astralsorcery.LightTransmutation.removeTransmutation(stackToRemove, matchMeta);"
+        ],
+        "scope": "zenscript",
+        "description": "astralsorcery LightTransmutation removeTransmutation"
+    },
+    "astralsorcery_RitualMineralis_addOre": {
+        "prefix": "RitualMineralis.addOre",
+        "body": [
+            "mods.astralsorcery.RitualMineralis.addOre(oreDictOreName, weight);"
+        ],
+        "scope": "zenscript",
+        "description": "astralsorcery RitualMineralis addOre"
+    },
+    "astralsorcery_RitualMineralis_removeOre": {
+        "prefix": "RitualMineralis.removeOre",
+        "body": [
+            "mods.astralsorcery.RitualMineralis.removeOre(oreDictOreName);"
+        ],
+        "scope": "zenscript",
+        "description": "astralsorcery RitualMineralis removeOre"
+    },
+    "astralsorcery_Lightwell_removeLiquefaction": {
+        "prefix": "Lightwell.removeLiquefaction",
+        "body": [
+            "mods.astralsorcery.Lightwell.removeLiquefaction(input, output);"
+        ],
+        "scope": "zenscript",
+        "description": "astralsorcery Lightwell removeLiquefaction"
+    },
+    "astralsorcery_Lightwell_addLiquefaction": {
+        "prefix": "Lightwell.addLiquefaction",
+        "body": [
+            "mods.astralsorcery.Lightwell.addLiquefaction(input, output, productionMultiplier, shatterMultiplier, colorhex);"
+        ],
+        "scope": "zenscript",
+        "description": "astralsorcery Lightwell addLiquefaction"
+    },
+    "BadMobs_BadMobs_blacklist": {
+        "prefix": "BadMobs.blacklist",
+        "body": [
+            "mods.BadMobs.blacklist(dimId, entityId);"
+        ],
+        "scope": "zenscript",
+        "description": "BadMobs BadMobs blacklist"
+    },
+    "mod_Caravan_addFollower": {
+        "prefix": "Caravan.addFollower",
+        "body": [
+            "mod.caravans.Caravan.addFollower(caravan, merchant, optionalModelType);"
+        ],
+        "scope": "zenscript",
+        "description": "mod Caravan addFollower"
+    },
+    "mod_Caravan_registerCaravan": {
+        "prefix": "Caravan.registerCaravan",
+        "body": [
+            "mod.caravans.Caravan.registerCaravan(name, optionalLeaderModel, optionalGamestage);"
+        ],
+        "scope": "zenscript",
+        "description": "mod Caravan registerCaravan"
+    },
+    "caravans_Entity_setEntityClassPath": {
+        "prefix": "Entity.setEntityClassPath",
+        "body": [
+            "mods.caravans.Entity.setEntityClassPath(clazz);"
+        ],
+        "scope": "zenscript",
+        "description": "caravans Entity setEntityClassPath"
+    },
+    "caravans_Entity_setCustomInfo": {
+        "prefix": "Entity.setCustomInfo",
+        "body": [
+            "mods.caravans.Entity.setCustomInfo(tag);"
+        ],
+        "scope": "zenscript",
+        "description": "caravans Entity setCustomInfo"
+    },
+    "contenttweaker_Commands_call": {
+        "prefix": "Commands.call",
+        "body": [
+            "mods.contenttweaker.Commands.call(command, player, world);"
+        ],
+        "scope": "zenscript",
+        "description": "contenttweaker Commands call"
+    },
+    "crossroads_FluidCoolingChamber_addRecipe": {
+        "prefix": "FluidCoolingChamber.addRecipe",
+        "body": [
+            "mods.crossroads.FluidCoolingChamber.addRecipe(output, input, maxTemp, heatAdded);"
+        ],
+        "scope": "zenscript",
+        "description": "crossroads FluidCoolingChamber addRecipe"
+    },
+    "crossroads_FluidCoolingChamber_removeRecipe": {
+        "prefix": "FluidCoolingChamber.removeRecipe",
+        "body": [
+            "mods.crossroads.FluidCoolingChamber.removeRecipe(input);"
+        ],
+        "scope": "zenscript",
+        "description": "crossroads FluidCoolingChamber removeRecipe"
+    },
+    "crossroads_Grindstone_addRecipe": {
+        "prefix": "Grindstone.addRecipe",
+        "body": [
+            "mods.crossroads.Grindstone.addRecipe(input, output1, optionalOutput2, optionalOutput3);"
+        ],
+        "scope": "zenscript",
+        "description": "crossroads Grindstone addRecipe"
+    },
+    "crossroads_Grindstone_removeRecipe": {
+        "prefix": "Grindstone.removeRecipe",
+        "body": [
+            "mods.crossroads.Grindstone.removeRecipe(input);"
+        ],
+        "scope": "zenscript",
+        "description": "crossroads Grindstone removeRecipe"
+    },
+    "DimensionStages_DimensionStages_addDimensionStage": {
+        "prefix": "DimensionStages.addDimensionStage",
+        "body": [
+            "mods.DimensionStages.addDimensionStage(stage, id);"
+        ],
+        "scope": "zenscript",
+        "description": "DimensionStages DimensionStages addDimensionStage"
+    },
+    "extendedcrafting_CombinationCrafting_addRecipe": {
+        "prefix": "CombinationCrafting.addRecipe",
+        "body": [
+            "mods.extendedcrafting.CombinationCrafting.addRecipe(output, cost, input, ingredients[]);"
+        ],
+        "scope": "zenscript",
+        "description": "extendedcrafting CombinationCrafting addRecipe"
+    },
+    "extendedcrafting_CombinationCrafting_remove": {
+        "prefix": "CombinationCrafting.remove",
+        "body": [
+            "mods.extendedcrafting.CombinationCrafting.remove(target);"
+        ],
+        "scope": "zenscript",
+        "description": "extendedcrafting CombinationCrafting remove"
+    },
+    "extendedcrafting_CompressionCrafting_addRecipe": {
+        "prefix": "CompressionCrafting.addRecipe",
+        "body": [
+            "mods.extendedcrafting.CompressionCrafting.addRecipe(output, input, inputCount, catalyst, powerCost);"
+        ],
+        "scope": "zenscript",
+        "description": "extendedcrafting CompressionCrafting addRecipe"
+    },
+    "extendedcrafting_CompressionCrafting_remove": {
+        "prefix": "CompressionCrafting.remove",
+        "body": [
+            "mods.extendedcrafting.CompressionCrafting.remove(target);"
+        ],
+        "scope": "zenscript",
+        "description": "extendedcrafting CompressionCrafting remove"
+    },
+    "extendedcrafting_TableCrafting_addShaped": {
+        "prefix": "TableCrafting.addShaped",
+        "body": [
+            "mods.extendedcrafting.TableCrafting.addShaped(output, ingredients[][]);"
+        ],
+        "scope": "zenscript",
+        "description": "extendedcrafting TableCrafting addShaped"
+    },
+    "extendedcrafting_TableCrafting_addShapeless": {
+        "prefix": "TableCrafting.addShapeless",
+        "body": [
+            "mods.extendedcrafting.TableCrafting.addShapeless(output, ingredients[]);"
+        ],
+        "scope": "zenscript",
+        "description": "extendedcrafting TableCrafting addShapeless"
+    },
+    "extendedcrafting_TableCrafting_remove": {
+        "prefix": "TableCrafting.remove",
+        "body": [
+            "mods.extendedcrafting.TableCrafting.remove(target);"
+        ],
+        "scope": "zenscript",
+        "description": "extendedcrafting TableCrafting remove"
+    },
+    "horsepower_ChoppingBlock_add": {
+        "prefix": "ChoppingBlock.add",
+        "body": [
+            "mods.horsepower.ChoppingBlock.add(input, output, time, optionalHand);"
+        ],
+        "scope": "zenscript",
+        "description": "horsepower ChoppingBlock add"
+    },
+    "horsepower_ChoppingBlock_remove": {
+        "prefix": "ChoppingBlock.remove",
+        "body": [
+            "mods.horsepower.ChoppingBlock.remove(output, optionalHand);"
+        ],
+        "scope": "zenscript",
+        "description": "horsepower ChoppingBlock remove"
+    },
+    "horsepower_Grindstone_add": {
+        "prefix": "Grindstone.add",
+        "body": [
+            "mods.horsepower.Grindstone.add(input, output, time, optionalHand, optionalSecondary, optionalSecondaryChance);"
+        ],
+        "scope": "zenscript",
+        "description": "horsepower Grindstone add"
+    },
+    "horsepower_Grindstone_remove": {
+        "prefix": "Grindstone.remove",
+        "body": [
+            "mods.horsepower.Grindstone.remove(output, optionalHand);"
+        ],
+        "scope": "zenscript",
+        "description": "horsepower Grindstone remove"
+    },
+    "horsepower_Press_add": {
+        "prefix": "Press.add",
+        "body": [
+            "mods.horsepower.Press.add(input, output);"
+        ],
+        "scope": "zenscript",
+        "description": "horsepower Press add"
+    },
+    "horsepower_Press_remove": {
+        "prefix": "Press.remove",
+        "body": [
+            "mods.horsepower.Press.remove(output);"
+        ],
+        "scope": "zenscript",
+        "description": "horsepower Press remove"
+    },
+    "immersiveengineering_AlloySmelter_addRecipe": {
+        "prefix": "AlloySmelter.addRecipe",
+        "body": [
+            "mods.immersiveengineering.AlloySmelter.addRecipe(output, first, second, time);"
+        ],
+        "scope": "zenscript",
+        "description": "immersiveengineering AlloySmelter addRecipe"
+    },
+    "immersiveengineering_AlloySmelter_removeRecipe": {
+        "prefix": "AlloySmelter.removeRecipe",
+        "body": [
+            "mods.immersiveengineering.AlloySmelter.removeRecipe(output);"
+        ],
+        "scope": "zenscript",
+        "description": "immersiveengineering AlloySmelter removeRecipe"
+    },
+    "immersiveengineering_ArcFurnace_addRecipe": {
+        "prefix": "ArcFurnace.addRecipe",
+        "body": [
+            "mods.immersiveengineering.ArcFurnace.addRecipe(output, input, slag, time, energyPerTick, optionalAdditives[], optionalSpecialRecipeType);"
+        ],
+        "scope": "zenscript",
+        "description": "immersiveengineering ArcFurnace addRecipe"
+    },
+    "immersiveengineering_ArcFurnace_removeRecipe": {
+        "prefix": "ArcFurnace.removeRecipe",
+        "body": [
+            "mods.immersiveengineering.ArcFurnace.removeRecipe(output);"
+        ],
+        "scope": "zenscript",
+        "description": "immersiveengineering ArcFurnace removeRecipe"
+    },
+    "immersiveengineering_BlastFurnace_addRecipe": {
+        "prefix": "BlastFurnace.addRecipe",
+        "body": [
+            "mods.immersiveengineering.BlastFurnace.addRecipe(output, input, time, optionalSlag);"
+        ],
+        "scope": "zenscript",
+        "description": "immersiveengineering BlastFurnace addRecipe"
+    },
+    "immersiveengineering_BlastFurnace_removeRecipe": {
+        "prefix": "BlastFurnace.removeRecipe",
+        "body": [
+            "mods.immersiveengineering.BlastFurnace.removeRecipe(output);"
+        ],
+        "scope": "zenscript",
+        "description": "immersiveengineering BlastFurnace removeRecipe"
+    },
+    "immersiveengineering_BlastFurnace_addFuel": {
+        "prefix": "BlastFurnace.addFuel",
+        "body": [
+            "mods.immersiveengineering.BlastFurnace.addFuel(input, time);"
+        ],
+        "scope": "zenscript",
+        "description": "immersiveengineering BlastFurnace addFuel"
+    },
+    "immersiveengineering_BlastFurnace_removeFuel": {
+        "prefix": "BlastFurnace.removeFuel",
+        "body": [
+            "mods.immersiveengineering.BlastFurnace.removeFuel(output);"
+        ],
+        "scope": "zenscript",
+        "description": "immersiveengineering BlastFurnace removeFuel"
+    },
+    "immersiveengineering_Blueprint_addRecipe": {
+        "prefix": "Blueprint.addRecipe",
+        "body": [
+            "mods.immersiveengineering.Blueprint.addRecipe(category, output, inputs[]);"
+        ],
+        "scope": "zenscript",
+        "description": "immersiveengineering Blueprint addRecipe"
+    },
+    "immersiveengineering_Blueprint_removeRecipe": {
+        "prefix": "Blueprint.removeRecipe",
+        "body": [
+            "mods.immersiveengineering.Blueprint.removeRecipe(output);"
+        ],
+        "scope": "zenscript",
+        "description": "immersiveengineering Blueprint removeRecipe"
+    },
+    "immersiveengineering_BottlingMachine_addRecipe": {
+        "prefix": "BottlingMachine.addRecipe",
+        "body": [
+            "mods.immersiveengineering.BottlingMachine.addRecipe(output, input, fluid);"
+        ],
+        "scope": "zenscript",
+        "description": "immersiveengineering BottlingMachine addRecipe"
+    },
+    "immersiveengineering_BottlingMachine_removeRecipe": {
+        "prefix": "BottlingMachine.removeRecipe",
+        "body": [
+            "mods.immersiveengineering.BottlingMachine.removeRecipe(output);"
+        ],
+        "scope": "zenscript",
+        "description": "immersiveengineering BottlingMachine removeRecipe"
+    },
+    "immersiveengineering_CokeOven_addRecipe": {
+        "prefix": "CokeOven.addRecipe",
+        "body": [
+            "mods.immersiveengineering.CokeOven.addRecipe(output, fuelOutput, input, time);"
+        ],
+        "scope": "zenscript",
+        "description": "immersiveengineering CokeOven addRecipe"
+    },
+    "immersiveengineering_CokeOven_removeRecipe": {
+        "prefix": "CokeOven.removeRecipe",
+        "body": [
+            "mods.immersiveengineering.CokeOven.removeRecipe(output);"
+        ],
+        "scope": "zenscript",
+        "description": "immersiveengineering CokeOven removeRecipe"
+    },
+    "immersiveengineering_Crusher_addRecipe": {
+        "prefix": "Crusher.addRecipe",
+        "body": [
+            "mods.immersiveengineering.Crusher.addRecipe(output, input, energy, optionalSecondaryOutput, optionalSecondaryChance);"
+        ],
+        "scope": "zenscript",
+        "description": "immersiveengineering Crusher addRecipe"
+    },
+    "immersiveengineering_Crusher_removeRecipe": {
+        "prefix": "Crusher.removeRecipe",
+        "body": [
+            "mods.immersiveengineering.Crusher.removeRecipe(output);"
+        ],
+        "scope": "zenscript",
+        "description": "immersiveengineering Crusher removeRecipe"
+    },
+    "immersiveengineering_DieselHandler_addFuel": {
+        "prefix": "DieselHandler.addFuel",
+        "body": [
+            "mods.immersiveengineering.DieselHandler.addFuel(fuel, time);"
+        ],
+        "scope": "zenscript",
+        "description": "immersiveengineering DieselHandler addFuel"
+    },
+    "immersiveengineering_DieselHandler_addDrillFuel": {
+        "prefix": "DieselHandler.addDrillFuel",
+        "body": [
+            "mods.immersiveengineering.DieselHandler.addDrillFuel(fuel);"
+        ],
+        "scope": "zenscript",
+        "description": "immersiveengineering DieselHandler addDrillFuel"
+    },
+    "immersiveengineering_DieselHandler_removeFuel": {
+        "prefix": "DieselHandler.removeFuel",
+        "body": [
+            "mods.immersiveengineering.DieselHandler.removeFuel(fuel);"
+        ],
+        "scope": "zenscript",
+        "description": "immersiveengineering DieselHandler removeFuel"
+    },
+    "immersiveengineering_DieselHandler_removeDrillFuel": {
+        "prefix": "DieselHandler.removeDrillFuel",
+        "body": [
+            "mods.immersiveengineering.DieselHandler.removeDrillFuel(fuel);"
+        ],
+        "scope": "zenscript",
+        "description": "immersiveengineering DieselHandler removeDrillFuel"
+    },
+    "immersiveengineering_Excavator_addMineral": {
+        "prefix": "Excavator.addMineral",
+        "body": [
+            "mods.immersiveengineering.Excavator.addMineral(name, mineralWeight, failChance, ores[], chances[], optionalDimensionWhitelist[], optionalBlacklist);"
+        ],
+        "scope": "zenscript",
+        "description": "immersiveengineering Excavator addMineral"
+    },
+    "immersiveengineering_Excavator_removeMineral": {
+        "prefix": "Excavator.removeMineral",
+        "body": [
+            "mods.immersiveengineering.Excavator.removeMineral(name);"
+        ],
+        "scope": "zenscript",
+        "description": "immersiveengineering Excavator removeMineral"
+    },
+    "immersiveengineering_Excavator_addOre": {
+        "prefix": "Excavator.addOre",
+        "body": [
+            "mods.immersiveengineering.Excavator.addOre(ore, chance);"
+        ],
+        "scope": "zenscript",
+        "description": "immersiveengineering Excavator addOre"
+    },
+    "immersiveengineering_Excavator_removeOre": {
+        "prefix": "Excavator.removeOre",
+        "body": [
+            "mods.immersiveengineering.Excavator.removeOre(ore);"
+        ],
+        "scope": "zenscript",
+        "description": "immersiveengineering Excavator removeOre"
+    },
+    "immersiveengineering_Fermenter_addRecipe": {
+        "prefix": "Fermenter.addRecipe",
+        "body": [
+            "mods.immersiveengineering.Fermenter.addRecipe(output, fluid, input, energy);"
+        ],
+        "scope": "zenscript",
+        "description": "immersiveengineering Fermenter addRecipe"
+    },
+    "immersiveengineering_Fermenter_removeFluidRecipe": {
+        "prefix": "Fermenter.removeFluidRecipe",
+        "body": [
+            "mods.immersiveengineering.Fermenter.removeFluidRecipe(fluid);"
+        ],
+        "scope": "zenscript",
+        "description": "immersiveengineering Fermenter removeFluidRecipe"
+    },
+    "immersiveengineering_Fermenter_removeItemRecipe": {
+        "prefix": "Fermenter.removeItemRecipe",
+        "body": [
+            "mods.immersiveengineering.Fermenter.removeItemRecipe(stack);"
+        ],
+        "scope": "zenscript",
+        "description": "immersiveengineering Fermenter removeItemRecipe"
+    },
+    "immersiveengineering_Fermenter_removeByInput": {
+        "prefix": "Fermenter.removeByInput",
+        "body": [
+            "mods.immersiveengineering.Fermenter.removeByInput(stack);"
+        ],
+        "scope": "zenscript",
+        "description": "immersiveengineering Fermenter removeByInput"
+    },
+    "immersiveengineering_MetalPress_addRecipe": {
+        "prefix": "MetalPress.addRecipe",
+        "body": [
+            "mods.immersiveengineering.MetalPress.addRecipe(output, input, mold, energy, optionalInputSize);"
+        ],
+        "scope": "zenscript",
+        "description": "immersiveengineering MetalPress addRecipe"
+    },
+    "immersiveengineering_MetalPress_removeRecipe": {
+        "prefix": "MetalPress.removeRecipe",
+        "body": [
+            "mods.immersiveengineering.MetalPress.removeRecipe(output);"
+        ],
+        "scope": "zenscript",
+        "description": "immersiveengineering MetalPress removeRecipe"
+    },
+    "immersiveengineering_MetalPress_removeRecipeByMold": {
+        "prefix": "MetalPress.removeRecipeByMold",
+        "body": [
+            "mods.immersiveengineering.MetalPress.removeRecipeByMold(mold);"
+        ],
+        "scope": "zenscript",
+        "description": "immersiveengineering MetalPress removeRecipeByMold"
+    },
+    "immersiveengineering_Mixer_addRecipe": {
+        "prefix": "Mixer.addRecipe",
+        "body": [
+            "mods.immersiveengineering.Mixer.addRecipe(output, fluidInput, itemInputs[], energy);"
+        ],
+        "scope": "zenscript",
+        "description": "immersiveengineering Mixer addRecipe"
+    },
+    "immersiveengineering_Mixer_removeRecipe": {
+        "prefix": "Mixer.removeRecipe",
+        "body": [
+            "mods.immersiveengineering.Mixer.removeRecipe(output);"
+        ],
+        "scope": "zenscript",
+        "description": "immersiveengineering Mixer removeRecipe"
+    },
+    "immersiveengineering_Refinery_addRecipe": {
+        "prefix": "Refinery.addRecipe",
+        "body": [
+            "mods.immersiveengineering.Refinery.addRecipe(output, input0, input1, energy);"
+        ],
+        "scope": "zenscript",
+        "description": "immersiveengineering Refinery addRecipe"
+    },
+    "immersiveengineering_Refinery_removeRecipe": {
+        "prefix": "Refinery.removeRecipe",
+        "body": [
+            "mods.immersiveengineering.Refinery.removeRecipe(output);"
+        ],
+        "scope": "zenscript",
+        "description": "immersiveengineering Refinery removeRecipe"
+    },
+    "immersiveengineering_Squeezer_addRecipe": {
+        "prefix": "Squeezer.addRecipe",
+        "body": [
+            "mods.immersiveengineering.Squeezer.addRecipe(output, fluid, input, energy);"
+        ],
+        "scope": "zenscript",
+        "description": "immersiveengineering Squeezer addRecipe"
+    },
+    "immersiveengineering_Squeezer_removeFluidRecipe": {
+        "prefix": "Squeezer.removeFluidRecipe",
+        "body": [
+            "mods.immersiveengineering.Squeezer.removeFluidRecipe(fluid);"
+        ],
+        "scope": "zenscript",
+        "description": "immersiveengineering Squeezer removeFluidRecipe"
+    },
+    "immersiveengineering_Squeezer_removeItemRecipe": {
+        "prefix": "Squeezer.removeItemRecipe",
+        "body": [
+            "mods.immersiveengineering.Squeezer.removeItemRecipe(stack);"
+        ],
+        "scope": "zenscript",
+        "description": "immersiveengineering Squeezer removeItemRecipe"
+    },
+    "immersiveengineering_Squeezer_removeByInput": {
+        "prefix": "Squeezer.removeByInput",
+        "body": [
+            "mods.immersiveengineering.Squeezer.removeByInput(stack);"
+        ],
+        "scope": "zenscript",
+        "description": "immersiveengineering Squeezer removeByInput"
+    },
+    "immersivepetroleum_Distillation_addRecipe": {
+        "prefix": "Distillation.addRecipe",
+        "body": [
+            "mods.immersivepetroleum.Distillation.addRecipe(fluidOutputs[], itemOutputs[], fluidInput, energy, time, chance[]);"
+        ],
+        "scope": "zenscript",
+        "description": "immersivepetroleum Distillation addRecipe"
+    },
+    "immersivepetroleum_Lubricant_registerLubricant": {
+        "prefix": "Lubricant.registerLubricant",
+        "body": [
+            "mods.immersivepetroleum.Lubricant.registerLubricant(lubricantEntry, amount);"
+        ],
+        "scope": "zenscript",
+        "description": "immersivepetroleum Lubricant registerLubricant"
+    },
+    "immersivepetroleum_Motorboat_registerMotorboatFuel": {
+        "prefix": "Motorboat.registerMotorboatFuel",
+        "body": [
+            "mods.immersivepetroleum.Motorboat.registerMotorboatFuel(fuelEntry, mbPerTick);"
+        ],
+        "scope": "zenscript",
+        "description": "immersivepetroleum Motorboat registerMotorboatFuel"
+    },
+    "immersivepetroleum_PortableGenerator_registerPortableGenFuel": {
+        "prefix": "PortableGenerator.registerPortableGenFuel",
+        "body": [
+            "mods.immersivepetroleum.PortableGenerator.registerPortableGenFuel(fuelEntry, fluxPerTick, mbPerTick);"
+        ],
+        "scope": "zenscript",
+        "description": "immersivepetroleum PortableGenerator registerPortableGenFuel"
+    },
+    "immersivepetroleum_Reservoir_registerReservoir": {
+        "prefix": "Reservoir.registerReservoir",
+        "body": [
+            "mods.immersivepetroleum.Reservoir.registerReservoir(name, fluid, minSize, maxSize, replenishRate, weight);"
+        ],
+        "scope": "zenscript",
+        "description": "immersivepetroleum Reservoir registerReservoir"
+    },
+    "industrialforegoing_BioReactor_add": {
+        "prefix": "BioReactor.add",
+        "body": [
+            "mods.industrialforegoing.BioReactor.add(input);"
+        ],
+        "scope": "zenscript",
+        "description": "industrialforegoing BioReactor add"
+    },
+    "industrialforegoing_BioReactor_remove": {
+        "prefix": "BioReactor.remove",
+        "body": [
+            "mods.industrialforegoing.BioReactor.remove(input);"
+        ],
+        "scope": "zenscript",
+        "description": "industrialforegoing BioReactor remove"
+    },
+    "industrialforegoing_LaserDrill_add": {
+        "prefix": "LaserDrill.add",
+        "body": [
+            "mods.industrialforegoing.LaserDrill.add(meta, output, weight);"
+        ],
+        "scope": "zenscript",
+        "description": "industrialforegoing LaserDrill add"
+    },
+    "industrialforegoing_LaserDrill_remove": {
+        "prefix": "LaserDrill.remove",
+        "body": [
+            "mods.industrialforegoing.LaserDrill.remove(input);"
+        ],
+        "scope": "zenscript",
+        "description": "industrialforegoing LaserDrill remove"
+    },
+    "industrialforegoing_SludgeRefiner_add": {
+        "prefix": "SludgeRefiner.add",
+        "body": [
+            "mods.industrialforegoing.SludgeRefiner.add(output, weight);"
+        ],
+        "scope": "zenscript",
+        "description": "industrialforegoing SludgeRefiner add"
+    },
+    "industrialforegoing_SludgeRefiner_remove": {
+        "prefix": "SludgeRefiner.remove",
+        "body": [
+            "mods.industrialforegoing.SludgeRefiner.remove(output);"
+        ],
+        "scope": "zenscript",
+        "description": "industrialforegoing SludgeRefiner remove"
+    },
+    "initialinventory_InvHandler_addStartingItem": {
+        "prefix": "InvHandler.addStartingItem",
+        "body": [
+            "mods.initialinventory.InvHandler.addStartingItem(item);"
+        ],
+        "scope": "zenscript",
+        "description": "initialinventory InvHandler addStartingItem"
+    },
+    "ItemStages_ItemStages_addItemStage": {
+        "prefix": "ItemStages.addItemStage",
+        "body": [
+            "mods.ItemStages.addItemStage(stage, input);"
+        ],
+        "scope": "zenscript",
+        "description": "ItemStages ItemStages addItemStage"
+    },
+    "ltt_LootTable_removeTable": {
+        "prefix": "LootTable.removeTable",
+        "body": [
+            "mods.ltt.LootTable.removeTable(table);"
+        ],
+        "scope": "zenscript",
+        "description": "ltt LootTable removeTable"
+    },
+    "ltt_LootTable_removePool": {
+        "prefix": "LootTable.removePool",
+        "body": [
+            "mods.ltt.LootTable.removePool(table, pool);"
+        ],
+        "scope": "zenscript",
+        "description": "ltt LootTable removePool"
+    },
+    "ltt_LootTable_removeEntry": {
+        "prefix": "LootTable.removeEntry",
+        "body": [
+            "mods.ltt.LootTable.removeEntry(table, pool, entry);"
+        ],
+        "scope": "zenscript",
+        "description": "ltt LootTable removeEntry"
+    },
+    "ltt_LootTable_removeItem": {
+        "prefix": "LootTable.removeItem",
+        "body": [
+            "mods.ltt.LootTable.removeItem(table, pool, item);"
+        ],
+        "scope": "zenscript",
+        "description": "ltt LootTable removeItem"
+    },
+    "ltt_LootTable_removeModEntry": {
+        "prefix": "LootTable.removeModEntry",
+        "body": [
+            "mods.ltt.LootTable.removeModEntry(modid);"
+        ],
+        "scope": "zenscript",
+        "description": "ltt LootTable removeModEntry"
+    },
+    "ltt_LootTable_removeModItem": {
+        "prefix": "LootTable.removeModItem",
+        "body": [
+            "mods.ltt.LootTable.removeModItem(modid);"
+        ],
+        "scope": "zenscript",
+        "description": "ltt LootTable removeModItem"
+    },
+    "ltt_LootTable_removeModTable": {
+        "prefix": "LootTable.removeModTable",
+        "body": [
+            "mods.ltt.LootTable.removeModTable(modid);"
+        ],
+        "scope": "zenscript",
+        "description": "ltt LootTable removeModTable"
+    },
+    "ltt_LootTable_removeGlobalItem": {
+        "prefix": "LootTable.removeGlobalItem",
+        "body": [
+            "mods.ltt.LootTable.removeGlobalItem(itemId);"
+        ],
+        "scope": "zenscript",
+        "description": "ltt LootTable removeGlobalItem"
+    },
+    "mekanism_crystallizer_addRecipe": {
+        "prefix": "crystallizer.addRecipe",
+        "body": [
+            "mods.mekanism.chemical.crystallizer.addRecipe(gasInput, itemOutput);"
+        ],
+        "scope": "zenscript",
+        "description": "mekanism crystallizer addRecipe"
+    },
+    "mekanism_crystallizer_removeRecipe": {
+        "prefix": "crystallizer.removeRecipe",
+        "body": [
+            "mods.mekanism.chemical.crystallizer.removeRecipe(itemOutput, optionalGasInput);"
+        ],
+        "scope": "zenscript",
+        "description": "mekanism crystallizer removeRecipe"
+    },
+    "mekanism_dissolution_addRecipe": {
+        "prefix": "dissolution.addRecipe",
+        "body": [
+            "mods.mekanism.chemical.dissolution.addRecipe(itemInput, gasOutput);"
+        ],
+        "scope": "zenscript",
+        "description": "mekanism dissolution addRecipe"
+    },
+    "mekanism_dissolution_removeRecipe": {
+        "prefix": "dissolution.removeRecipe",
+        "body": [
+            "mods.mekanism.chemical.dissolution.removeRecipe(gasOutput, optionalItemInput);"
+        ],
+        "scope": "zenscript",
+        "description": "mekanism dissolution removeRecipe"
+    },
+    "mekanism_infuser_addRecipe": {
+        "prefix": "infuser.addRecipe",
+        "body": [
+            "mods.mekanism.chemical.infuser.addRecipe(leftGasInput, rightGasInput, gasOutput);"
+        ],
+        "scope": "zenscript",
+        "description": "mekanism infuser addRecipe"
+    },
+    "mekanism_infuser_removeRecipe": {
+        "prefix": "infuser.removeRecipe",
+        "body": [
+            "mods.mekanism.chemical.infuser.removeRecipe(gasOutput, optionalLeftGasInput, optionalRightGasInput);"
+        ],
+        "scope": "zenscript",
+        "description": "mekanism infuser removeRecipe"
+    },
+    "mekanism_injection_addRecipe": {
+        "prefix": "injection.addRecipe",
+        "body": [
+            "mods.mekanism.chemical.injection.addRecipe(itemInput, gasInput, itemOutput);"
+        ],
+        "scope": "zenscript",
+        "description": "mekanism injection addRecipe"
+    },
+    "mekanism_injection_removeRecipe": {
+        "prefix": "injection.removeRecipe",
+        "body": [
+            "mods.mekanism.chemical.injection.removeRecipe(itemOutput, optionalItemInput, optionalGasInput);"
+        ],
+        "scope": "zenscript",
+        "description": "mekanism injection removeRecipe"
+    },
+    "mekanism_oxidizer_addRecipe": {
+        "prefix": "oxidizer.addRecipe",
+        "body": [
+            "mods.mekanism.chemical.oxidizer.addRecipe(itemInput, gasOutput);"
+        ],
+        "scope": "zenscript",
+        "description": "mekanism oxidizer addRecipe"
+    },
+    "mekanism_oxidizer_removeRecipe": {
+        "prefix": "oxidizer.removeRecipe",
+        "body": [
+            "mods.mekanism.chemical.oxidizer.removeRecipe(gasOutput, optionalItemInput);"
+        ],
+        "scope": "zenscript",
+        "description": "mekanism oxidizer removeRecipe"
+    },
+    "mekanism_washer_addRecipe": {
+        "prefix": "washer.addRecipe",
+        "body": [
+            "mods.mekanism.chemical.washer.addRecipe(gasInput, gasOutput);"
+        ],
+        "scope": "zenscript",
+        "description": "mekanism washer addRecipe"
+    },
+    "mekanism_washer_removeRecipe": {
+        "prefix": "washer.removeRecipe",
+        "body": [
+            "mods.mekanism.chemical.washer.removeRecipe(gasOutput, optionalGasInput);"
+        ],
+        "scope": "zenscript",
+        "description": "mekanism washer removeRecipe"
+    },
+    "mekanism_combiner_addRecipe": {
+        "prefix": "combiner.addRecipe",
+        "body": [
+            "mods.mekanism.combiner.addRecipe(itemInput, gasInput, itemOutput);"
+        ],
+        "scope": "zenscript",
+        "description": "mekanism combiner addRecipe"
+    },
+    "mekanism_combiner_removeRecipe": {
+        "prefix": "combiner.removeRecipe",
+        "body": [
+            "mods.mekanism.combiner.removeRecipe(itemOutput, optionalItemInput, optionalGasInput);"
+        ],
+        "scope": "zenscript",
+        "description": "mekanism combiner removeRecipe"
+    },
+    "mekanism_compressor_addRecipe": {
+        "prefix": "compressor.addRecipe",
+        "body": [
+            "mods.mekanism.compressor.addRecipe(itemInput, itemOutput);"
+        ],
+        "scope": "zenscript",
+        "description": "mekanism compressor addRecipe"
+    },
+    "mekanism_compressor_removeRecipe": {
+        "prefix": "compressor.removeRecipe",
+        "body": [
+            "mods.mekanism.compressor.removeRecipe(itemOutput, optionalItemInput, optionalGasInput);"
+        ],
+        "scope": "zenscript",
+        "description": "mekanism compressor removeRecipe"
+    },
+    "mekanism_crusher_addRecipe": {
+        "prefix": "crusher.addRecipe",
+        "body": [
+            "mods.mekanism.crusher.addRecipe(itemInput, itemOutput);"
+        ],
+        "scope": "zenscript",
+        "description": "mekanism crusher addRecipe"
+    },
+    "mekanism_crusher_removeRecipe": {
+        "prefix": "crusher.removeRecipe",
+        "body": [
+            "mods.mekanism.crusher.removeRecipe(itemOutput, optionalItemInput);"
+        ],
+        "scope": "zenscript",
+        "description": "mekanism crusher removeRecipe"
+    },
+    "mekanism_smelter_addRecipe": {
+        "prefix": "smelter.addRecipe",
+        "body": [
+            "mods.mekanism.smelter.addRecipe(itemInput, itemOutput);"
+        ],
+        "scope": "zenscript",
+        "description": "mekanism smelter addRecipe"
+    },
+    "mekanism_smelter_removeRecipe": {
+        "prefix": "smelter.removeRecipe",
+        "body": [
+            "mods.mekanism.smelter.removeRecipe(itemInput, optionalItemOutput);"
+        ],
+        "scope": "zenscript",
+        "description": "mekanism smelter removeRecipe"
+    },
+    "mekanism_enrichment_addRecipe": {
+        "prefix": "enrichment.addRecipe",
+        "body": [
+            "mods.mekanism.enrichment.addRecipe(itemInput, itemOutput);"
+        ],
+        "scope": "zenscript",
+        "description": "mekanism enrichment addRecipe"
+    },
+    "mekanism_enrichment_removeRecipe": {
+        "prefix": "enrichment.removeRecipe",
+        "body": [
+            "mods.mekanism.enrichment.removeRecipe(itemInput, optionalItemOutput);"
+        ],
+        "scope": "zenscript",
+        "description": "mekanism enrichment removeRecipe"
+    },
+    "mekanism_purification_addRecipe": {
+        "prefix": "purification.addRecipe",
+        "body": [
+            "mods.mekanism.purification.addRecipe(itemInput, itemOutput);"
+        ],
+        "scope": "zenscript",
+        "description": "mekanism purification addRecipe"
+    },
+    "mekanism_purification_removeRecipe": {
+        "prefix": "purification.removeRecipe",
+        "body": [
+            "mods.mekanism.purification.removeRecipe(itemOutput, optionalItemInput, optionalGasInput);"
+        ],
+        "scope": "zenscript",
+        "description": "mekanism purification removeRecipe"
+    },
+    "mekanism_reaction_addRecipe": {
+        "prefix": "reaction.addRecipe",
+        "body": [
+            "mods.mekanism.reaction.addRecipe(itemInput, liquidInput, gasInput, itemOutput, gasOutput, energy, duration);"
+        ],
+        "scope": "zenscript",
+        "description": "mekanism reaction addRecipe"
+    },
+    "mekanism_reaction_removeRecipe": {
+        "prefix": "reaction.removeRecipe",
+        "body": [
+            "mods.mekanism.reaction.removeRecipe(itemOutput, gasOutput, optionalItemInput, optionalLiquidInput, optionalGasInput);"
+        ],
+        "scope": "zenscript",
+        "description": "mekanism reaction removeRecipe"
+    },
+    "mekanism_sawmill_addRecipe": {
+        "prefix": "sawmill.addRecipe",
+        "body": [
+            "mods.mekanism.sawmill.addRecipe(itemInput, itemOutput, optionalOptionalItemOutput, optionalOptionalChance);"
+        ],
+        "scope": "zenscript",
+        "description": "mekanism sawmill addRecipe"
+    },
+    "mekanism_sawmill_removeRecipe": {
+        "prefix": "sawmill.removeRecipe",
+        "body": [
+            "mods.mekanism.sawmill.removeRecipe(itemInput, optionalItemOutput, optionalOptionalItemOutput);"
+        ],
+        "scope": "zenscript",
+        "description": "mekanism sawmill removeRecipe"
+    },
+    "mekanism_separator_addRecipe": {
+        "prefix": "separator.addRecipe",
+        "body": [
+            "mods.mekanism.separator.addRecipe(liquidInput, energy, leftGasOutput, rightGasOutput);"
+        ],
+        "scope": "zenscript",
+        "description": "mekanism separator addRecipe"
+    },
+    "mekanism_separator_removeRecipe": {
+        "prefix": "separator.removeRecipe",
+        "body": [
+            "mods.mekanism.separator.removeRecipe(liquidInput, optionalLeftGasInput, optionalRightGasInput);"
+        ],
+        "scope": "zenscript",
+        "description": "mekanism separator removeRecipe"
+    },
+    "mekanism_solarneutronactivator_addRecipe": {
+        "prefix": "solarneutronactivator.addRecipe",
+        "body": [
+            "mods.mekanism.solarneutronactivator.addRecipe(gasInput, gasOutput);"
+        ],
+        "scope": "zenscript",
+        "description": "mekanism solarneutronactivator addRecipe"
+    },
+    "mekanism_solarneutronactivator_removeRecipe": {
+        "prefix": "solarneutronactivator.removeRecipe",
+        "body": [
+            "mods.mekanism.solarneutronactivator.removeRecipe(gasInput, optionalGasOutput);"
+        ],
+        "scope": "zenscript",
+        "description": "mekanism solarneutronactivator removeRecipe"
+    },
+    "mekanism_thermalevaporation_addRecipe": {
+        "prefix": "thermalevaporation.addRecipe",
+        "body": [
+            "mods.mekanism.thermalevaporation.addRecipe(liquidInput, liquidOutput);"
+        ],
+        "scope": "zenscript",
+        "description": "mekanism thermalevaporation addRecipe"
+    },
+    "mekanism_thermalevaporation_removeRecipe": {
+        "prefix": "thermalevaporation.removeRecipe",
+        "body": [
+            "mods.mekanism.thermalevaporation.removeRecipe(liquidInput, optionalLiquidOutput);"
+        ],
+        "scope": "zenscript",
+        "description": "mekanism thermalevaporation removeRecipe"
+    },
+    "MobStages_MobStages_addStage": {
+        "prefix": "MobStages.addStage",
+        "body": [
+            "mods.MobStages.addStage(stage, entityId);"
+        ],
+        "scope": "zenscript",
+        "description": "MobStages MobStages addStage"
+    },
+    "MobStages_MobStages_addReplacement": {
+        "prefix": "MobStages.addReplacement",
+        "body": [
+            "mods.MobStages.addReplacement(entityId, replacementId);"
+        ],
+        "scope": "zenscript",
+        "description": "MobStages MobStages addReplacement"
+    },
+    "MobStages_MobStages_addRange": {
+        "prefix": "MobStages.addRange",
+        "body": [
+            "mods.MobStages.addRange(entityId, range);"
+        ],
+        "scope": "zenscript",
+        "description": "MobStages MobStages addRange"
+    },
+    "MobStages_MobStages_toggleSpawner": {
+        "prefix": "MobStages.toggleSpawner",
+        "body": [
+            "mods.MobStages.toggleSpawner(entityId, allow);"
+        ],
+        "scope": "zenscript",
+        "description": "MobStages MobStages toggleSpawner"
+    },
+    "nuclearcraft_manufactory_addRecipe": {
+        "prefix": "manufactory.addRecipe",
+        "body": [
+            "mods.nuclearcraft.manufactory.addRecipe(input1, output1);"
+        ],
+        "scope": "zenscript",
+        "description": "nuclearcraft manufactory addRecipe"
+    },
+    "nuclearcraft_manufactory_removeRecipe": {
+        "prefix": "manufactory.removeRecipe",
+        "body": [
+            "mods.nuclearcraft.manufactory.removeRecipe(output1);"
+        ],
+        "scope": "zenscript",
+        "description": "nuclearcraft manufactory removeRecipe"
+    },
+    "pneumaticcraft_assembly_addDrillRecipe": {
+        "prefix": "assembly.addDrillRecipe",
+        "body": [
+            "mods.pneumaticcraft.assembly.addDrillRecipe(input, output);"
+        ],
+        "scope": "zenscript",
+        "description": "pneumaticcraft assembly addDrillRecipe"
+    },
+    "pneumaticcraft_assembly_addLaserRecipe": {
+        "prefix": "assembly.addLaserRecipe",
+        "body": [
+            "mods.pneumaticcraft.assembly.addLaserRecipe(input, output);"
+        ],
+        "scope": "zenscript",
+        "description": "pneumaticcraft assembly addLaserRecipe"
+    },
+    "pneumaticcraft_assembly_addDrillLaserRecipe": {
+        "prefix": "assembly.addDrillLaserRecipe",
+        "body": [
+            "mods.pneumaticcraft.assembly.addDrillLaserRecipe(input, output);"
+        ],
+        "scope": "zenscript",
+        "description": "pneumaticcraft assembly addDrillLaserRecipe"
+    },
+    "pneumaticcraft_assembly_removeDrillRecipe": {
+        "prefix": "assembly.removeDrillRecipe",
+        "body": [
+            "mods.pneumaticcraft.assembly.removeDrillRecipe(output);"
+        ],
+        "scope": "zenscript",
+        "description": "pneumaticcraft assembly removeDrillRecipe"
+    },
+    "pneumaticcraft_assembly_removeAllDrillRecipes": {
+        "prefix": "assembly.removeAllDrillRecipes",
+        "body": [
+            "mods.pneumaticcraft.assembly.removeAllDrillRecipes();"
+        ],
+        "scope": "zenscript",
+        "description": "pneumaticcraft assembly removeAllDrillRecipes"
+    },
+    "pneumaticcraft_assembly_removeLaserRecipe": {
+        "prefix": "assembly.removeLaserRecipe",
+        "body": [
+            "mods.pneumaticcraft.assembly.removeLaserRecipe(output);"
+        ],
+        "scope": "zenscript",
+        "description": "pneumaticcraft assembly removeLaserRecipe"
+    },
+    "pneumaticcraft_assembly_removeAllLaserRecipes": {
+        "prefix": "assembly.removeAllLaserRecipes",
+        "body": [
+            "mods.pneumaticcraft.assembly.removeAllLaserRecipes();"
+        ],
+        "scope": "zenscript",
+        "description": "pneumaticcraft assembly removeAllLaserRecipes"
+    },
+    "pneumaticcraft_assembly_removeDrillLaserRecipe": {
+        "prefix": "assembly.removeDrillLaserRecipe",
+        "body": [
+            "mods.pneumaticcraft.assembly.removeDrillLaserRecipe(output);"
+        ],
+        "scope": "zenscript",
+        "description": "pneumaticcraft assembly removeDrillLaserRecipe"
+    },
+    "pneumaticcraft_assembly_removeAllDrillLaserRecipes": {
+        "prefix": "assembly.removeAllDrillLaserRecipes",
+        "body": [
+            "mods.pneumaticcraft.assembly.removeAllDrillLaserRecipes();"
+        ],
+        "scope": "zenscript",
+        "description": "pneumaticcraft assembly removeAllDrillLaserRecipes"
+    },
+    "pneumaticcraft_assembly_removeAllRecipes": {
+        "prefix": "assembly.removeAllRecipes",
+        "body": [
+            "mods.pneumaticcraft.assembly.removeAllRecipes();"
+        ],
+        "scope": "zenscript",
+        "description": "pneumaticcraft assembly removeAllRecipes"
+    },
+    "pneumaticcraft_heatframecooling_addRecipe": {
+        "prefix": "heatframecooling.addRecipe",
+        "body": [
+            "mods.pneumaticcraft.heatframecooling.addRecipe(input, output);"
+        ],
+        "scope": "zenscript",
+        "description": "pneumaticcraft heatframecooling addRecipe"
+    },
+    "pneumaticcraft_heatframecooling_removeRecipe": {
+        "prefix": "heatframecooling.removeRecipe",
+        "body": [
+            "mods.pneumaticcraft.heatframecooling.removeRecipe(output);"
+        ],
+        "scope": "zenscript",
+        "description": "pneumaticcraft heatframecooling removeRecipe"
+    },
+    "pneumaticcraft_heatframecooling_removeAllRecipes": {
+        "prefix": "heatframecooling.removeAllRecipes",
+        "body": [
+            "mods.pneumaticcraft.heatframecooling.removeAllRecipes();"
+        ],
+        "scope": "zenscript",
+        "description": "pneumaticcraft heatframecooling removeAllRecipes"
+    },
+    "pneumaticcraft_pressurechamber_addRecipe": {
+        "prefix": "pressurechamber.addRecipe",
+        "body": [
+            "mods.pneumaticcraft.pressurechamber.addRecipe(input[], pressure, output[]);"
+        ],
+        "scope": "zenscript",
+        "description": "pneumaticcraft pressurechamber addRecipe"
+    },
+    "pneumaticcraft_pressurechamber_removeRecipe": {
+        "prefix": "pressurechamber.removeRecipe",
+        "body": [
+            "mods.pneumaticcraft.pressurechamber.removeRecipe(output[]);"
+        ],
+        "scope": "zenscript",
+        "description": "pneumaticcraft pressurechamber removeRecipe"
+    },
+    "pneumaticcraft_pressurechamber_removeAllRecipes": {
+        "prefix": "pressurechamber.removeAllRecipes",
+        "body": [
+            "mods.pneumaticcraft.pressurechamber.removeAllRecipes();"
+        ],
+        "scope": "zenscript",
+        "description": "pneumaticcraft pressurechamber removeAllRecipes"
+    },
+    "pneumaticcraft_refinery_addRecipe": {
+        "prefix": "refinery.addRecipe",
+        "body": [
+            "mods.pneumaticcraft.refinery.addRecipe(input, outputs[]);"
+        ],
+        "scope": "zenscript",
+        "description": "pneumaticcraft refinery addRecipe"
+    },
+    "pneumaticcraft_refinery_removeRecipes": {
+        "prefix": "refinery.removeRecipes",
+        "body": [
+            "mods.pneumaticcraft.refinery.removeRecipes(input);"
+        ],
+        "scope": "zenscript",
+        "description": "pneumaticcraft refinery removeRecipes"
+    },
+    "pneumaticcraft_refinery_removeRecipe": {
+        "prefix": "refinery.removeRecipe",
+        "body": [
+            "mods.pneumaticcraft.refinery.removeRecipe(outputs[]);"
+        ],
+        "scope": "zenscript",
+        "description": "pneumaticcraft refinery removeRecipe"
+    },
+    "pneumaticcraft_refinery_removeAllRecipes": {
+        "prefix": "refinery.removeAllRecipes",
+        "body": [
+            "mods.pneumaticcraft.refinery.removeAllRecipes();"
+        ],
+        "scope": "zenscript",
+        "description": "pneumaticcraft refinery removeAllRecipes"
+    },
+    "pneumaticcraft_thermopneumaticprocessingplant_addRecipe": {
+        "prefix": "thermopneumaticprocessingplant.addRecipe",
+        "body": [
+            "mods.pneumaticcraft.thermopneumaticprocessingplant.addRecipe(liquidInput, itemInput, pressure, temperature, output);"
+        ],
+        "scope": "zenscript",
+        "description": "pneumaticcraft thermopneumaticprocessingplant addRecipe"
+    },
+    "pneumaticcraft_thermopneumaticprocessingplant_removeRecipe": {
+        "prefix": "thermopneumaticprocessingplant.removeRecipe",
+        "body": [
+            "mods.pneumaticcraft.thermopneumaticprocessingplant.removeRecipe(output);"
+        ],
+        "scope": "zenscript",
+        "description": "pneumaticcraft thermopneumaticprocessingplant removeRecipe"
+    },
+    "pneumaticcraft_thermopneumaticprocessingplant_removeAllRecipes": {
+        "prefix": "thermopneumaticprocessingplant.removeAllRecipes",
+        "body": [
+            "mods.pneumaticcraft.thermopneumaticprocessingplant.removeAllRecipes();"
+        ],
+        "scope": "zenscript",
+        "description": "pneumaticcraft thermopneumaticprocessingplant removeAllRecipes"
+    },
+    "recipestages_Recipes_addShaped": {
+        "prefix": "Recipes.addShaped",
+        "body": [
+            "mods.recipestages.Recipes.addShaped(name, stage, output, ingredients[][], optionalFunction, optionalAction);"
+        ],
+        "scope": "zenscript",
+        "description": "recipestages Recipes addShaped"
+    },
+    "recipestages_Recipes_addShapedMirrored": {
+        "prefix": "Recipes.addShapedMirrored",
+        "body": [
+            "mods.recipestages.Recipes.addShapedMirrored(name, stage, output, ingredients[][], optionalFunction, optionalAction);"
+        ],
+        "scope": "zenscript",
+        "description": "recipestages Recipes addShapedMirrored"
+    },
+    "recipestages_Recipes_addShapeless": {
+        "prefix": "Recipes.addShapeless",
+        "body": [
+            "mods.recipestages.Recipes.addShapeless(name, stage, output, ingredients[], optionalFunction, optionalAction);"
+        ],
+        "scope": "zenscript",
+        "description": "recipestages Recipes addShapeless"
+    },
+    "recipestages_Recipes_setRecipeStage": {
+        "prefix": "Recipes.setRecipeStage",
+        "body": [
+            "mods.recipestages.Recipes.setRecipeStage(stage, output);"
+        ],
+        "scope": "zenscript",
+        "description": "recipestages Recipes setRecipeStage"
+    },
+    "techreborn_alloySmelter_addRecipe": {
+        "prefix": "alloySmelter.addRecipe",
+        "body": [
+            "mods.techreborn.alloySmelter.addRecipe(output, input1, input2, ticktime, euTick);"
+        ],
+        "scope": "zenscript",
+        "description": "techreborn alloySmelter addRecipe"
+    },
+    "techreborn_alloySmelter_removeInputRecipe": {
+        "prefix": "alloySmelter.removeInputRecipe",
+        "body": [
+            "mods.techreborn.alloySmelter.removeInputRecipe(iIngredient);"
+        ],
+        "scope": "zenscript",
+        "description": "techreborn alloySmelter removeInputRecipe"
+    },
+    "techreborn_alloySmelter_removeRecipe": {
+        "prefix": "alloySmelter.removeRecipe",
+        "body": [
+            "mods.techreborn.alloySmelter.removeRecipe(output);"
+        ],
+        "scope": "zenscript",
+        "description": "techreborn alloySmelter removeRecipe"
+    },
+    "techreborn_assemblingMachine_addRecipe": {
+        "prefix": "assemblingMachine.addRecipe",
+        "body": [
+            "mods.techreborn.assemblingMachine.addRecipe(output, input1, input2, ticktime, euTick);"
+        ],
+        "scope": "zenscript",
+        "description": "techreborn assemblingMachine addRecipe"
+    },
+    "techreborn_assemblingMachine_removeInputRecipe": {
+        "prefix": "assemblingMachine.removeInputRecipe",
+        "body": [
+            "mods.techreborn.assemblingMachine.removeInputRecipe(iIngredient);"
+        ],
+        "scope": "zenscript",
+        "description": "techreborn assemblingMachine removeInputRecipe"
+    },
+    "techreborn_assemblingMachine_removeRecipe": {
+        "prefix": "assemblingMachine.removeRecipe",
+        "body": [
+            "mods.techreborn.assemblingMachine.removeRecipe(output);"
+        ],
+        "scope": "zenscript",
+        "description": "techreborn assemblingMachine removeRecipe"
+    },
+    "techreborn_blastFurnace_addRecipe": {
+        "prefix": "blastFurnace.addRecipe",
+        "body": [
+            "mods.techreborn.blastFurnace.addRecipe(output1, output2, input1, input2, ticktime, euTick, neededHeat);"
+        ],
+        "scope": "zenscript",
+        "description": "techreborn blastFurnace addRecipe"
+    },
+    "techreborn_blastFurnace_removeInputRecipe": {
+        "prefix": "blastFurnace.removeInputRecipe",
+        "body": [
+            "mods.techreborn.blastFurnace.removeInputRecipe(iIngredient);"
+        ],
+        "scope": "zenscript",
+        "description": "techreborn blastFurnace removeInputRecipe"
+    },
+    "techreborn_blastFurnace_removeRecipe": {
+        "prefix": "blastFurnace.removeRecipe",
+        "body": [
+            "mods.techreborn.blastFurnace.removeRecipe(output);"
+        ],
+        "scope": "zenscript",
+        "description": "techreborn blastFurnace removeRecipe"
+    },
+    "techreborn_centrifuge_addRecipe": {
+        "prefix": "centrifuge.addRecipe",
+        "body": [
+            "mods.techreborn.centrifuge.addRecipe(output1, output2, output3, output4, input1, input2, ticktime, euTick);"
+        ],
+        "scope": "zenscript",
+        "description": "techreborn centrifuge addRecipe"
+    },
+    "techreborn_centrifuge_removeInputRecipe": {
+        "prefix": "centrifuge.removeInputRecipe",
+        "body": [
+            "mods.techreborn.centrifuge.removeInputRecipe(iIngredient);"
+        ],
+        "scope": "zenscript",
+        "description": "techreborn centrifuge removeInputRecipe"
+    },
+    "techreborn_centrifuge_removeRecipe": {
+        "prefix": "centrifuge.removeRecipe",
+        "body": [
+            "mods.techreborn.centrifuge.removeRecipe(output);"
+        ],
+        "scope": "zenscript",
+        "description": "techreborn centrifuge removeRecipe"
+    },
+    "techreborn_chemicalReactorRecipe_addRecipe": {
+        "prefix": "chemicalReactorRecipe.addRecipe",
+        "body": [
+            "mods.techreborn.chemicalReactorRecipe.addRecipe(output1, input1, input2, ticktime, euTick);"
+        ],
+        "scope": "zenscript",
+        "description": "techreborn chemicalReactorRecipe addRecipe"
+    },
+    "techreborn_chemicalReactorRecipe_removeInputRecipe": {
+        "prefix": "chemicalReactorRecipe.removeInputRecipe",
+        "body": [
+            "mods.techreborn.chemicalReactorRecipe.removeInputRecipe(iIngredient);"
+        ],
+        "scope": "zenscript",
+        "description": "techreborn chemicalReactorRecipe removeInputRecipe"
+    },
+    "techreborn_chemicalReactorRecipe_removeRecipe": {
+        "prefix": "chemicalReactorRecipe.removeRecipe",
+        "body": [
+            "mods.techreborn.chemicalReactorRecipe.removeRecipe(output);"
+        ],
+        "scope": "zenscript",
+        "description": "techreborn chemicalReactorRecipe removeRecipe"
+    },
+    "techreborn_compressor_addRecipe": {
+        "prefix": "compressor.addRecipe",
+        "body": [
+            "mods.techreborn.compressor.addRecipe(output1, input1, ticktime, euTick);"
+        ],
+        "scope": "zenscript",
+        "description": "techreborn compressor addRecipe"
+    },
+    "techreborn_compressor_removeInputRecipe": {
+        "prefix": "compressor.removeInputRecipe",
+        "body": [
+            "mods.techreborn.compressor.removeInputRecipe(iIngredient);"
+        ],
+        "scope": "zenscript",
+        "description": "techreborn compressor removeInputRecipe"
+    },
+    "techreborn_compressor_removeRecipe": {
+        "prefix": "compressor.removeRecipe",
+        "body": [
+            "mods.techreborn.compressor.removeRecipe(output);"
+        ],
+        "scope": "zenscript",
+        "description": "techreborn compressor removeRecipe"
+    },
+    "techreborn_fusionReactor_addRecipe": {
+        "prefix": "fusionReactor.addRecipe",
+        "body": [
+            "mods.techreborn.fusionReactor.addRecipe(topInput, bottomInput, output, startEU, euTick, tickTime);"
+        ],
+        "scope": "zenscript",
+        "description": "techreborn fusionReactor addRecipe"
+    },
+    "techreborn_fusionReactor_removeTopInputRecipe": {
+        "prefix": "fusionReactor.removeTopInputRecipe",
+        "body": [
+            "mods.techreborn.fusionReactor.removeTopInputRecipe(iIngredient);"
+        ],
+        "scope": "zenscript",
+        "description": "techreborn fusionReactor removeTopInputRecipe"
+    },
+    "techreborn_fusionReactor_removeBottomInputRecipe": {
+        "prefix": "fusionReactor.removeBottomInputRecipe",
+        "body": [
+            "mods.techreborn.fusionReactor.removeBottomInputRecipe(iIngredient);"
+        ],
+        "scope": "zenscript",
+        "description": "techreborn fusionReactor removeBottomInputRecipe"
+    },
+    "techreborn_fusionReactor_removeRecipe": {
+        "prefix": "fusionReactor.removeRecipe",
+        "body": [
+            "mods.techreborn.fusionReactor.removeRecipe(output);"
+        ],
+        "scope": "zenscript",
+        "description": "techreborn fusionReactor removeRecipe"
+    },
+    "techreborn_implosionCompressor_addRecipe": {
+        "prefix": "implosionCompressor.addRecipe",
+        "body": [
+            "mods.techreborn.implosionCompressor.addRecipe(output1, output2, input1, input2, ticktime, euTick);"
+        ],
+        "scope": "zenscript",
+        "description": "techreborn implosionCompressor addRecipe"
+    },
+    "techreborn_implosionCompressor_removeInputRecipe": {
+        "prefix": "implosionCompressor.removeInputRecipe",
+        "body": [
+            "mods.techreborn.implosionCompressor.removeInputRecipe(iIngredient);"
+        ],
+        "scope": "zenscript",
+        "description": "techreborn implosionCompressor removeInputRecipe"
+    },
+    "techreborn_implosionCompressor_removeRecipe": {
+        "prefix": "implosionCompressor.removeRecipe",
+        "body": [
+            "mods.techreborn.implosionCompressor.removeRecipe(output);"
+        ],
+        "scope": "zenscript",
+        "description": "techreborn implosionCompressor removeRecipe"
+    },
+    "techreborn_industrialElectrolyzer_addRecipe": {
+        "prefix": "industrialElectrolyzer.addRecipe",
+        "body": [
+            "mods.techreborn.industrialElectrolyzer.addRecipe(output1, output2, output3, output4, cells, input2, ticktime, euTick);"
+        ],
+        "scope": "zenscript",
+        "description": "techreborn industrialElectrolyzer addRecipe"
+    },
+    "techreborn_industrialElectrolyzer_removeInputRecipe": {
+        "prefix": "industrialElectrolyzer.removeInputRecipe",
+        "body": [
+            "mods.techreborn.industrialElectrolyzer.removeInputRecipe(iIngredient);"
+        ],
+        "scope": "zenscript",
+        "description": "techreborn industrialElectrolyzer removeInputRecipe"
+    },
+    "techreborn_industrialElectrolyzer_removeRecipe": {
+        "prefix": "industrialElectrolyzer.removeRecipe",
+        "body": [
+            "mods.techreborn.industrialElectrolyzer.removeRecipe(output);"
+        ],
+        "scope": "zenscript",
+        "description": "techreborn industrialElectrolyzer removeRecipe"
+    },
+    "techreborn_grinder_addRecipe": {
+        "prefix": "grinder.addRecipe",
+        "body": [
+            "mods.techreborn.grinder.addRecipe(output1, output2, output3, output4, input1, input2, ticktime, euTick);"
+        ],
+        "scope": "zenscript",
+        "description": "techreborn grinder addRecipe"
+    },
+    "techreborn_grinder_removeInputRecipe": {
+        "prefix": "grinder.removeInputRecipe",
+        "body": [
+            "mods.techreborn.grinder.removeInputRecipe(iIngredient);"
+        ],
+        "scope": "zenscript",
+        "description": "techreborn grinder removeInputRecipe"
+    },
+    "techreborn_grinder_removeRecipe": {
+        "prefix": "grinder.removeRecipe",
+        "body": [
+            "mods.techreborn.grinder.removeRecipe(output);"
+        ],
+        "scope": "zenscript",
+        "description": "techreborn grinder removeRecipe"
+    },
+    "techreborn_industrialSawmill_addRecipe": {
+        "prefix": "industrialSawmill.addRecipe",
+        "body": [
+            "mods.techreborn.industrialSawmill.addRecipe(output1, output2, output3, input1, input2, fluid, ticktime, euTick);"
+        ],
+        "scope": "zenscript",
+        "description": "techreborn industrialSawmill addRecipe"
+    },
+    "techreborn_industrialSawmill_removeInputRecipe": {
+        "prefix": "industrialSawmill.removeInputRecipe",
+        "body": [
+            "mods.techreborn.industrialSawmill.removeInputRecipe(iIngredient);"
+        ],
+        "scope": "zenscript",
+        "description": "techreborn industrialSawmill removeInputRecipe"
+    },
+    "techreborn_industrialSawmill_removeRecipe": {
+        "prefix": "industrialSawmill.removeRecipe",
+        "body": [
+            "mods.techreborn.industrialSawmill.removeRecipe(output);"
+        ],
+        "scope": "zenscript",
+        "description": "techreborn industrialSawmill removeRecipe"
+    },
+    "techreborn_rollingMachine_addShaped": {
+        "prefix": "rollingMachine.addShaped",
+        "body": [
+            "mods.techreborn.rollingMachine.addShaped(output, ingredients[][]);"
+        ],
+        "scope": "zenscript",
+        "description": "techreborn rollingMachine addShaped"
+    },
+    "techreborn_rollingMachine_addShapeless": {
+        "prefix": "rollingMachine.addShapeless",
+        "body": [
+            "mods.techreborn.rollingMachine.addShapeless(output, ingredients[]);"
+        ],
+        "scope": "zenscript",
+        "description": "techreborn rollingMachine addShapeless"
+    },
+    "techreborn_rollingMachine_removeRecipe": {
+        "prefix": "rollingMachine.removeRecipe",
+        "body": [
+            "mods.techreborn.rollingMachine.removeRecipe(output);"
+        ],
+        "scope": "zenscript",
+        "description": "techreborn rollingMachine removeRecipe"
+    },
+    "techreborn_scrapbox_addScrapboxDrop": {
+        "prefix": "scrapbox.addScrapboxDrop",
+        "body": [
+            "mods.techreborn.scrapbox.addScrapboxDrop(input);"
+        ],
+        "scope": "zenscript",
+        "description": "techreborn scrapbox addScrapboxDrop"
+    },
+    "techreborn_vacuumFreezer_addRecipe": {
+        "prefix": "vacuumFreezer.addRecipe",
+        "body": [
+            "mods.techreborn.vacuumFreezer.addRecipe(output, input, ticktime, euTick);"
+        ],
+        "scope": "zenscript",
+        "description": "techreborn vacuumFreezer addRecipe"
+    },
+    "techreborn_vacuumFreezer_removeInputRecipe": {
+        "prefix": "vacuumFreezer.removeInputRecipe",
+        "body": [
+            "mods.techreborn.vacuumFreezer.removeInputRecipe(iIngredient);"
+        ],
+        "scope": "zenscript",
+        "description": "techreborn vacuumFreezer removeInputRecipe"
+    },
+    "techreborn_vacuumFreezer_removeRecipe": {
+        "prefix": "vacuumFreezer.removeRecipe",
+        "body": [
+            "mods.techreborn.vacuumFreezer.removeRecipe(output);"
+        ],
+        "scope": "zenscript",
+        "description": "techreborn vacuumFreezer removeRecipe"
+    },
+    "TinkerStages_TinkerStages_addGeneralCraftingStage": {
+        "prefix": "TinkerStages.addGeneralCraftingStage",
+        "body": [
+            "mods.TinkerStages.addGeneralCraftingStage(stage);"
+        ],
+        "scope": "zenscript",
+        "description": "TinkerStages TinkerStages addGeneralCraftingStage"
+    },
+    "TinkerStages_TinkerStages_addGeneralPartReplacingStage": {
+        "prefix": "TinkerStages.addGeneralPartReplacingStage",
+        "body": [
+            "mods.TinkerStages.addGeneralPartReplacingStage(stage);"
+        ],
+        "scope": "zenscript",
+        "description": "TinkerStages TinkerStages addGeneralPartReplacingStage"
+    },
+    "TinkerStages_TinkerStages_addGeneralPartBuildingStage": {
+        "prefix": "TinkerStages.addGeneralPartBuildingStage",
+        "body": [
+            "mods.TinkerStages.addGeneralPartBuildingStage(stage);"
+        ],
+        "scope": "zenscript",
+        "description": "TinkerStages TinkerStages addGeneralPartBuildingStage"
+    },
+    "TinkerStages_TinkerStages_addGeneralModifierStage": {
+        "prefix": "TinkerStages.addGeneralModifierStage",
+        "body": [
+            "mods.TinkerStages.addGeneralModifierStage(stage);"
+        ],
+        "scope": "zenscript",
+        "description": "TinkerStages TinkerStages addGeneralModifierStage"
+    },
+    "TinkerStages_TinkerStages_addToolTypeStage": {
+        "prefix": "TinkerStages.addToolTypeStage",
+        "body": [
+            "mods.TinkerStages.addToolTypeStage(stage, toolType);"
+        ],
+        "scope": "zenscript",
+        "description": "TinkerStages TinkerStages addToolTypeStage"
+    },
+    "TinkerStages_TinkerStages_addMaterialStage": {
+        "prefix": "TinkerStages.addMaterialStage",
+        "body": [
+            "mods.TinkerStages.addMaterialStage(stage, material);"
+        ],
+        "scope": "zenscript",
+        "description": "TinkerStages TinkerStages addMaterialStage"
+    },
+    "TinkerStages_TinkerStages_addModifierStage": {
+        "prefix": "TinkerStages.addModifierStage",
+        "body": [
+            "mods.TinkerStages.addModifierStage(stage, modifier);"
+        ],
+        "scope": "zenscript",
+        "description": "TinkerStages TinkerStages addModifierStage"
+    },
+    "vctweaker_vctweaker_addShaped": {
+        "prefix": "vctweaker.addShaped",
+        "body": [
+            "mods.vctweaker.addShaped(output, ingredients[][], optionalFunction, optionalAction);"
+        ],
+        "scope": "zenscript",
+        "description": "vctweaker vctweaker addShaped"
+    },
+    "vctweaker_vctweaker_addShapedMirrored": {
+        "prefix": "vctweaker.addShapedMirrored",
+        "body": [
+            "mods.vctweaker.addShapedMirrored(output, ingredients[][], optionalFunction, optionalAction);"
+        ],
+        "scope": "zenscript",
+        "description": "vctweaker vctweaker addShapedMirrored"
+    },
+    "vctweaker_vctweaker_addShapeless": {
+        "prefix": "vctweaker.addShapeless",
+        "body": [
+            "mods.vctweaker.addShapeless(output, ingredients[], optionalFunction, optionalAction);"
+        ],
+        "scope": "zenscript",
+        "description": "vctweaker vctweaker addShapeless"
+    },
+    "WailaStages_WailaStages_addWailaStage": {
+        "prefix": "WailaStages.addWailaStage",
+        "body": [
+            "mods.WailaStages.addWailaStage(stage);"
+        ],
+        "scope": "zenscript",
+        "description": "WailaStages WailaStages addWailaStage"
+    },
+    "WailaStages_WailaStages_addRequirement": {
+        "prefix": "WailaStages.addRequirement",
+        "body": [
+            "mods.WailaStages.addRequirement(stage, prefix);"
+        ],
+        "scope": "zenscript",
+        "description": "WailaStages WailaStages addRequirement"
+    }
+}

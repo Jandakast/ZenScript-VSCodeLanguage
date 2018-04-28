@@ -1,0 +1,23 @@
+{
+    "Hide": {
+        "prefix": "hide",
+        "body": [
+            "NEI.hide(${0:<item>});"
+        ],
+        "description": "Hide item from NEI"
+    },
+    "AddEntry": {
+        "prefix": "addentry",
+        "body": [
+            "NEI.addEntry(${1::<item>}.withTag(${2:NBTTag}));"
+        ],
+        "description": "Change item NBT in NEI"
+    },
+    "OverrideName": {
+        "prefix": "overridename",
+        "body": [
+            "NEI.overrideName(${1::<item>}, \"${2:Name}\");"
+        ],
+        "description": "Change item Name in NEI"
+    }
+}

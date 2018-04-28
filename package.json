@@ -1,0 +1,35 @@
+{
+    "name": "zenscript-vscodelanguage",
+    "displayName": "zenscript-vscodelanguage",
+    "description": "Language Support for the MineTweaker, CraftTweaker, and ModTweaker ZenScript language",
+    "version": "0.0.1",
+    "publisher": "Jandakast",
+    "engines": {
+        "vscode": "^1.22.0"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "zenscript",
+            "aliases": ["ZenScript", "zenscript"],
+            "extensions": [".zs"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "zenscript",
+            "scopeName": "text.zenscript",
+            "path": "./syntaxes/zenscript-syntax.tmLanguage"
+        }],
+        "snippets": [
+            {
+                "language": "zenscript",
+                "path": "./snippets/crafttweaker.json"
+            },
+            {
+                "language": "zenscript",
+                "path": "./snippets/neisupport.json"
+        }]
+    }
+}
