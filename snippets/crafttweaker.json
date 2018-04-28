@@ -247,189 +247,189 @@
         "scope": "zenscript",
         "description": "actuallyadditions TreasureChest removeLoot"
     },
-    "betterwithAnvil_betterwithAnvil_addShaped": {
-        "prefix": "betterwithAnvil.addShaped",
+    "betterwithmods_Anvil_addShaped": {
+        "prefix": "Anvil.addShaped",
         "body": [
             "mods.betterwithmods.Anvil.addShaped(output, inputs[][]);"
         ],
         "scope": "zenscript",
-        "description": "betterwithAnvil betterwithAnvil addShaped"
+        "description": "betterwithmods Anvil addShaped"
     },
-    "betterwithAnvil_betterwithAnvil_addShapeless": {
-        "prefix": "betterwithAnvil.addShapeless",
+    "betterwithmods_Anvil_addShapeless": {
+        "prefix": "Anvil.addShapeless",
         "body": [
             "mods.betterwithmods.Anvil.addShapeless(output, inputs[]);"
         ],
         "scope": "zenscript",
-        "description": "betterwithAnvil betterwithAnvil addShapeless"
+        "description": "betterwithmods Anvil addShapeless"
     },
-    "betterwithAnvil_betterwithAnvil_removeShaped": {
-        "prefix": "betterwithAnvil.removeShaped",
+    "betterwithmods_Anvil_removeShaped": {
+        "prefix": "Anvil.removeShaped",
         "body": [
             "mods.betterwithmods.Anvil.removeShaped(output, optionalIngredients[][]);"
         ],
         "scope": "zenscript",
-        "description": "betterwithAnvil betterwithAnvil removeShaped"
+        "description": "betterwithmods Anvil removeShaped"
     },
-    "betterwithAnvil_betterwithAnvil_removeShapeless": {
-        "prefix": "betterwithAnvil.removeShapeless",
+    "betterwithmods_Anvil_removeShapeless": {
+        "prefix": "Anvil.removeShapeless",
         "body": [
             "mods.betterwithmods.Anvil.removeShapeless(output, optionalIngredients[]);"
         ],
         "scope": "zenscript",
-        "description": "betterwithAnvil betterwithAnvil removeShapeless"
+        "description": "betterwithmods Anvil removeShapeless"
     },
-    "betterwithBuoyancy_betterwithBuoyancy_set": {
-        "prefix": "betterwithBuoyancy.set",
+    "betterwithmods_Buoyancy_set": {
+        "prefix": "Buoyancy.set",
         "body": [
             "mods.betterwithmods.Buoyancy.set(stack, value);"
         ],
         "scope": "zenscript",
-        "description": "betterwithBuoyancy betterwithBuoyancy set"
+        "description": "betterwithmods Buoyancy set"
     },
-    "betterwithCauldron_betterwithCauldron_add": {
-        "prefix": "betterwithCauldron.add",
+    "betterwithmods_Cauldron_add": {
+        "prefix": "Cauldron.add",
         "body": [
             "mods.betterwithmods.Cauldron.add(output, optionalSecondaryOutput, inputs[]);"
         ],
         "scope": "zenscript",
-        "description": "betterwithCauldron betterwithCauldron add"
+        "description": "betterwithmods Cauldron add"
     },
-    "betterwithCauldron_betterwithCauldron_remove": {
-        "prefix": "betterwithCauldron.remove",
+    "betterwithmods_Cauldron_remove": {
+        "prefix": "Cauldron.remove",
         "body": [
             "mods.betterwithmods.Cauldron.remove(output);"
         ],
         "scope": "zenscript",
-        "description": "betterwithCauldron betterwithCauldron remove"
+        "description": "betterwithmods Cauldron remove"
     },
-    "betterwithCrucible_betterwithCrucible_add": {
-        "prefix": "betterwithCrucible.add",
+    "betterwithmods_Crucible_add": {
+        "prefix": "Crucible.add",
         "body": [
             "mods.betterwithmods.Crucible.add(output, optionalSecondaryOutput, inputs[]);"
         ],
         "scope": "zenscript",
-        "description": "betterwithCrucible betterwithCrucible add"
+        "description": "betterwithmods Crucible add"
     },
-    "betterwithCrucible_betterwithCrucible_remove": {
-        "prefix": "betterwithCrucible.remove",
+    "betterwithmods_Crucible_remove": {
+        "prefix": "Crucible.remove",
         "body": [
             "mods.betterwithmods.Crucible.remove(output);"
         ],
         "scope": "zenscript",
-        "description": "betterwithCrucible betterwithCrucible remove"
+        "description": "betterwithmods Crucible remove"
     },
-    "betterwithKiln_betterwithKiln_add": {
-        "prefix": "betterwithKiln.add",
+    "betterwithmods_Kiln_add": {
+        "prefix": "Kiln.add",
         "body": [
             "mods.betterwithmods.Kiln.add(output[], input);"
         ],
         "scope": "zenscript",
-        "description": "betterwithKiln betterwithKiln add"
+        "description": "betterwithmods Kiln add"
     },
-    "betterwithKiln_betterwithKiln_remove": {
-        "prefix": "betterwithKiln.remove",
+    "betterwithmods_Kiln_remove": {
+        "prefix": "Kiln.remove",
         "body": [
             "mods.betterwithmods.Kiln.remove(input);"
         ],
         "scope": "zenscript",
-        "description": "betterwithKiln betterwithKiln remove"
+        "description": "betterwithmods Kiln remove"
     },
-    "betterwithKiln_betterwithKiln_registerBlock": {
-        "prefix": "betterwithKiln.registerBlock",
+    "betterwithmods_Kiln_registerBlock": {
+        "prefix": "Kiln.registerBlock",
         "body": [
             "mods.betterwithmods.Kiln.registerBlock(block);"
         ],
         "scope": "zenscript",
-        "description": "betterwithKiln betterwithKiln registerBlock"
+        "description": "betterwithmods Kiln registerBlock"
     },
-    "betterwithMill_betterwithMill_add": {
-        "prefix": "betterwithMill.add",
+    "betterwithmods_Mill_add": {
+        "prefix": "Mill.add",
         "body": [
             "mods.betterwithmods.Mill.add(output, optionalSecondaryOutput, inputs[]);"
         ],
         "scope": "zenscript",
-        "description": "betterwithMill betterwithMill add"
+        "description": "betterwithmods Mill add"
     },
-    "betterwithMill_betterwithMill_remove": {
-        "prefix": "betterwithMill.remove",
+    "betterwithmods_Mill_remove": {
+        "prefix": "Mill.remove",
         "body": [
             "mods.betterwithmods.Mill.remove(output);"
         ],
         "scope": "zenscript",
-        "description": "betterwithMill betterwithMill remove"
+        "description": "betterwithmods Mill remove"
     },
-    "betterwithMovement_betterwithMovement_set": {
-        "prefix": "betterwithMovement.set",
+    "betterwithmods_Movement_set": {
+        "prefix": "Movement.set",
         "body": [
             "mods.betterwithmods.Movement.set(input, speed);"
         ],
         "scope": "zenscript",
-        "description": "betterwithMovement betterwithMovement set"
+        "description": "betterwithmods Movement set"
     },
-    "betterwithSaw_betterwithSaw_add": {
-        "prefix": "betterwithSaw.add",
+    "betterwithmods_Saw_add": {
+        "prefix": "Saw.add",
         "body": [
             "mods.betterwithmods.Saw.add(output[], input);"
         ],
         "scope": "zenscript",
-        "description": "betterwithSaw betterwithSaw add"
+        "description": "betterwithmods Saw add"
     },
-    "betterwithSaw_betterwithSaw_remove": {
-        "prefix": "betterwithSaw.remove",
+    "betterwithmods_Saw_remove": {
+        "prefix": "Saw.remove",
         "body": [
             "mods.betterwithmods.Saw.remove(input);"
         ],
         "scope": "zenscript",
-        "description": "betterwithSaw betterwithSaw remove"
+        "description": "betterwithmods Saw remove"
     },
-    "betterwithStokedCauldron_betterwithStokedCauldron_add": {
-        "prefix": "betterwithStokedCauldron.add",
+    "betterwithmods_StokedCauldron_add": {
+        "prefix": "StokedCauldron.add",
         "body": [
             "mods.betterwithmods.StokedCauldron.add(output, optionalSecondaryOutput, inputs[]);"
         ],
         "scope": "zenscript",
-        "description": "betterwithStokedCauldron betterwithStokedCauldron add"
+        "description": "betterwithmods StokedCauldron add"
     },
-    "betterwithStokedCauldron_betterwithStokedCauldron_remove": {
-        "prefix": "betterwithStokedCauldron.remove",
+    "betterwithmods_StokedCauldron_remove": {
+        "prefix": "StokedCauldron.remove",
         "body": [
             "mods.betterwithmods.StokedCauldron.remove(output);"
         ],
         "scope": "zenscript",
-        "description": "betterwithStokedCauldron betterwithStokedCauldron remove"
+        "description": "betterwithmods StokedCauldron remove"
     },
-    "betterwithStokedCrucible_betterwithStokedCrucible_add": {
-        "prefix": "betterwithStokedCrucible.add",
+    "betterwithmods_StokedCrucible_add": {
+        "prefix": "StokedCrucible.add",
         "body": [
             "mods.betterwithmods.StokedCrucible.add(output, optionalSecondaryOutput, inputs[]);"
         ],
         "scope": "zenscript",
-        "description": "betterwithStokedCrucible betterwithStokedCrucible add"
+        "description": "betterwithmods StokedCrucible add"
     },
-    "betterwithStokedCrucible_betterwithStokedCrucible_remove": {
-        "prefix": "betterwithStokedCrucible.remove",
+    "betterwithmods_StokedCrucible_remove": {
+        "prefix": "StokedCrucible.remove",
         "body": [
             "mods.betterwithmods.StokedCrucible.remove(output, optionalSecondary);"
         ],
         "scope": "zenscript",
-        "description": "betterwithStokedCrucible betterwithStokedCrucible remove"
+        "description": "betterwithmods StokedCrucible remove"
     },
-    "betterwithTurntable_betterwithTurntable_add": {
-        "prefix": "betterwithTurntable.add",
+    "betterwithmods_Turntable_add": {
+        "prefix": "Turntable.add",
         "body": [
             "mods.betterwithmods.Turntable.add(inputBlock, outputBlock, additionalOutput[]);"
         ],
         "scope": "zenscript",
-        "description": "betterwithTurntable betterwithTurntable add"
+        "description": "betterwithmods Turntable add"
     },
-    "betterwithTurntable_betterwithTurntable_remove": {
-        "prefix": "betterwithTurntable.remove",
+    "betterwithmods_Turntable_remove": {
+        "prefix": "Turntable.remove",
         "body": [
             "mods.betterwithmods.Turntable.remove(inputBlock);"
         ],
         "scope": "zenscript",
-        "description": "betterwithTurntable betterwithTurntable remove"
+        "description": "betterwithmods Turntable remove"
     },
     "botania_Apothecary_addRecipe": {
         "prefix": "Apothecary.addRecipe",

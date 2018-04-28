@@ -29,7 +29,7 @@
             },
             {
                 "language": "zenscript",
-                "path": "./snippets/neisupport.json"
+                "path": "./snippets/extras.json"
         }]
     }
 }

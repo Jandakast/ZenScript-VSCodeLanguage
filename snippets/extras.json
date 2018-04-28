@@ -4,6 +4,7 @@
         "body": [
             "NEI.hide(${0:<item>});"
         ],
+        "scope": "zenscript",
         "description": "Hide item from NEI"
     },
     "AddEntry": {
@@ -11,6 +12,7 @@
         "body": [
             "NEI.addEntry(${1::<item>}.withTag(${2:NBTTag}));"
         ],
+        "scope": "zenscript",
         "description": "Change item NBT in NEI"
     },
     "OverrideName": {
@@ -18,6 +20,7 @@
         "body": [
             "NEI.overrideName(${1::<item>}, \"${2:Name}\");"
         ],
+        "scope": "zenscript",
         "description": "Change item Name in NEI"
     }
 }
