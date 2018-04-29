@@ -9,12 +9,12 @@ Most snippits ported from [way2muchnoise's ZenScript-Highlighter](https://github
 ## Features
 
 Language Highlighting and limited snippits for CraftTweaker and ModTweaker ZenScript
-* crafttweaker
-* betterwithmods
-* botania
 * abyssalcraft
 * BadMobs
+* betterwithmods
+* botania
 * contenttweaker
+* crafttweaker
 * crossroads
 * extendedcrafting
 * initialinventory
