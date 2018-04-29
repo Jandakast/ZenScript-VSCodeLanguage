@@ -27,7 +27,7 @@ Language Highlighting and limited snippits for CraftTweaker and ModTweaker ZenSc
 
 ## Install Instructions
 - Clone or Download -> Download Zip
-- Unzip to your .vscode\extensions folder (Default location on Windows is %appdataroamin%\.vscode\extensions)
+- Unzip to your .vscode\extensions folder (Default location on Windows is %USERPROFILE%\.vscode\extensions)
 
 
 -----------------------------------------------------------------------------------------------------------
