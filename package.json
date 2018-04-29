@@ -20,7 +20,7 @@
         "grammars": [{
             "language": "zenscript",
             "scopeName": "text.zenscript",
-            "path": "./syntaxes/zenscript-syntax.tmLanguage"
+            "path": "./syntaxes/zenscript-syntax.tmLanguage.json"
         }],
         "snippets": [
             {

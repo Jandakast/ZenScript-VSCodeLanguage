@@ -1,0 +1,183 @@
+{
+    "fileTypes": [
+        "zs"
+    ],
+    "name": "ZenScript",
+    "patterns": [
+        {
+            "comment": "var",
+            "match": "\\b(var|byte)\\b",
+            "name": "storage.type"
+        },
+        {
+            "captures": {
+                "1": {
+                    "name": "keyword.other.zenscript"
+                },
+                "2": {
+                    "name": "storage.modifier"
+                },
+                "3": {
+                    "name": "punctuation.separator"
+                }
+            },
+            "comment": "package import",
+            "match": "^import (.*?)(?=;\\n)",
+            "name": "keyword.control.zenscript"
+        },
+        {
+            "comment": "inline comments",
+            "match": "\\s*((#|//).*$\\n?)",
+            "name": "comment.line.number-sign"
+        },
+        {
+            "begin": "\\/\\*",
+            "beginCaptures": {
+                "0": {
+                    "name": "comment.block"
+                }
+            },
+            "comment": "block comments",
+            "end": "\\*\\/",
+            "endCaptures": {
+                "0": {
+                    "name": "comment.block"
+                }
+            },
+            "name": "comment.block"
+        },
+        {
+            "comment": "control keywords",
+            "match": "\\b(return|break|case|continue|default|do|while|for|in|switch|if|else)\\b",
+            "name": "keyword.control.zenscript"
+        },
+        {
+            "comment": "constants (true, false, null)",
+            "match": "\\b(true|false|null)\\b",
+            "name": "constant.language.zenscript"
+        },
+        {
+            "comment": "numbers",
+            "match": "\\b((0(x|X)[0-9a-fA-F]*)|(([0-9]+\\.?[0-9]*)|(\\.[0-9]+))((e|E)(\\+|-)?[0-9]+)?)([LlFfUuDd]|UL|ul)?\\b",
+            "name": "constant.numeric.zenscript"
+        },
+        {
+            "comment": "assignment operator",
+            "match": "(=)",
+            "name": "keyword.operator.assignment.zenscript"
+        },
+        {
+            "comment": "math operators",
+            "match": "(\\-|\\+|\\*|\\/|%)",
+            "name": "keyword.operator.arithmetic.zenscript"
+        },
+        {
+            "comment": "arrays",
+            "match": "\\b((?:[a-z]\\w*\\.)*[A-Z]+\\w*)(?=\\[)",
+            "name": "storage.type.object.array.zenscript"
+        },
+        {
+            "captures": {
+                "1": {
+                    "name": "punctuation.separator"
+                },
+                "2": {
+                    "name": "storage.type"
+                },
+                "3": {
+                    "name": "punctuation.separator"
+                }
+            },
+            "comment": "ore/liquid dictionary",
+            "match": "(<)\\b(?:\\s*(ore|liquid))(?:\\s*(:)?)(?:(\\w|\\.|:)*)\\b(?:>)?",
+            "name": "variable.parameter"
+        },
+        {
+            "begin": "\\\"",
+            "beginCaptures": {
+                "0": {
+                    "name": "punctuation.definition.string.begin"
+                }
+            },
+            "comment": "double quote string",
+            "contentName": "string.other.zenscript",
+            "end": "\\\"",
+            "endCaptures": {
+                "0": {
+                    "name": "punctuation.definition.string.end"
+                }
+            },
+            "name": "string.quoted.double.zenscript"
+        },
+        {
+            "begin": "\\'",
+            "beginCaptures": {
+                "0": {
+                    "name": "punctuation.definition.string.begin"
+                }
+            },
+            "comment": "single quote string",
+            "contentName": "string.other.zenscript",
+            "end": "\\'",
+            "endCaptures": {
+                "0": {
+                    "name": "punctuation.definition.string.end"
+                }
+            },
+            "name": "string.quoted.single.zenscript"
+        },
+        {
+            "captures": {
+                "1": {
+                    "name": "storage.type.function.zenscript"
+                },
+                "2": {
+                    "name": "punctuation.definition.parameters.begin.zenscript"
+                },
+                "3": {
+                    "name": "variable.parameter.function.zenscript"
+                },
+                "4": {
+                    "name": "punctuation.definition.parameters.end.zenscript"
+                }
+            },
+            "comment": "functions like function",
+            "match": "\\b(function)\\s?(\\()(.*?)(\\))",
+            "name": "keyword.other.zenscript"
+        },
+        {
+            "comment": "dots",
+            "match": "\\b(\\w+)(\\.)(\\w+)((\\.)(\\w+))*",
+            "name": "plain.text.zenscript",
+            "captures": {
+                "1": {
+                    "name": "storage.type.zenscript"
+                },
+                "2": {
+                    "name": "keyword.control.zenscript"
+                },
+                "5": {
+                    "name": "keyword.control.zenscript"
+                }
+            }
+        },
+        {
+            "comment": "items and blocks",
+            "match": "(<)\\b(.*?)(:(.*?(:(\\d+)?)?)?)(>)",
+            "name": "keyword.other.zenscript",
+            "captures": {
+                "2": {
+                    "name": "entity.name.zenscript"
+                },
+                "4": {
+                    "name": "variable.parameter.zenscript"
+                },
+                "6": {
+                    "name": "constant.numeric.zenscript"
+                }
+            }
+        }
+    ],
+    "scopeName": "text.zenscript",
+    "uuid": "a0b2d273-b157-49d1-a6d0-2dd9940ea426"
+}
