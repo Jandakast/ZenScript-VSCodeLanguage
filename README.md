@@ -25,9 +25,4 @@ Language Highlighting and limited snippits for CraftTweaker and ModTweaker ZenSc
 * recipestages
 * techreborn
 
-## Release Notes
-
-Initial release
-
-
 -----------------------------------------------------------------------------------------------------------
