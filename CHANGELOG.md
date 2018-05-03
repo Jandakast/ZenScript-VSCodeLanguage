@@ -2,6 +2,8 @@
 All notable changes to the "zenscript-vscodelanguage" extension will be documented in this file.
 
 ## [Unreleased]
+## [0.0.3]
+- Updated highlight tokens and tweaked regex for ore and liquid dictionaries
 ## [0.0.2]
 - Converted syntax file to json format from xml format
 ## [0.0.1]
