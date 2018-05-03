@@ -1,6 +1,6 @@
 {
     "name": "zenscript-vscodelanguage",
-    "displayName": "zenscript-vscodelanguage",
+    "displayName": "ZenScript for VSCode",
     "description": "Language Support for the MineTweaker, CraftTweaker, and ModTweaker ZenScript language",
     "version": "0.0.3",
     "publisher": "Jandakast",

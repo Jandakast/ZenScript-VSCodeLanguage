@@ -1,14 +1,14 @@
 # ZenScript-VSCodeLanguage README
 
-VSCode text highlighting and snippits for ZenScript used in CraftTweaker and ModTweaker 1.12.2+ versions
+VSCode text highlighting and snippets for ZenScript used in CraftTweaker and ModTweaker 1.12.2+ versions
 
 Highlighting inspired by [Nincraft's Minetweaker syntax highlighting](https://github.com/Nincraft/minetweaker-syntax-highlighting)
 
-Most snippits ported from [way2muchnoise's ZenScript-Highlighter](https://github.com/way2muchnoise/ZenScript-Highlighter)
+Most snippets ported from [way2muchnoise's ZenScript-Highlighter](https://github.com/way2muchnoise/ZenScript-Highlighter)
 
 ## Features
 
-Language Highlighting and limited snippits for CraftTweaker and ModTweaker ZenScript
+Language Highlighting and limited snippets for CraftTweaker and ModTweaker ZenScript
 * abyssalcraft
 * BadMobs
 * betterwithmods

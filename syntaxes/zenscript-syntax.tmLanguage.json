@@ -64,12 +64,12 @@
         {
             "comment": "assignment operator",
             "match": "(=)",
-            "name": "keyword.operator.assignment.zenscript"
+            "name": "token.error-token.zenscript"
         },
         {
             "comment": "math operators",
             "match": "(\\-|\\+|\\*|\\/|%)",
-            "name": "keyword.operator.arithmetic.zenscript"
+            "name": "token.error-token.zenscript"
         },
         {
             "comment": "arrays",
