@@ -10,8 +10,10 @@ All notable changes to the "ZenScript for VSCode" extension will be documented i
 
 ## [0.0.3]
 - Updated highlight tokens and tweaked regex for ore and liquid dictionaries
+
 ## [0.0.2]
 - Converted syntax file to json format from xml format
+
 ## [0.0.1]
 - Initial release
 - Ported many of the Sublime Text 3  
