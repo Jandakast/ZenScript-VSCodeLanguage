@@ -139,22 +139,25 @@
             }
         },
         {
-            "comment": "functions like function",
-            "name": "keyword.other.zenscript",
-            "match": "\\b(function)\\s?(\\()(.*?)(\\))",
-            "captures": {
-                "1": {
-                    "name": "storage.type.function.zenscript"
+            "comment": "functions",
+            "name": "meta.function.zenscript",
+            "begin": "\\b(function)\\s+([A-Za-z_]\\w*)?\\s*(\\()",
+            "beginCaptures": {
+				"1": {
+					"name": "storage.type.function.zenscript"
                 },
                 "2": {
-                    "name": "punctuation.definition.parameters.begin.zenscript"
+                    "name": "entity.name.function.zenscript"
                 },
-                "3": {
-                    "name": "variable.parameter.function.zenscript"
-                },
-                "4": {
-                    "name": "punctuation.definition.parameters.end.zenscript"
-                }
+				"3": {
+					"name": "punctuation.definition.parameters.begin.bracket.round.zenscript"
+				}
+            },
+            "end": "\\)",
+			"endCaptures": {
+				"0": {
+					"name": "punctuation.definition.parameters.end.bracket.round.zenscript"
+				}
             }
         },
         {
