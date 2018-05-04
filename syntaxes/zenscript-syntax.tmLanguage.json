@@ -10,6 +10,9 @@
             "name": "storage.type"
         },
         {
+            "comment": "package import",
+            "name": "keyword.control.zenscript",
+            "match": "^import (.*?)(?=;\\n)",
             "captures": {
                 "1": {
                     "name": "keyword.other.zenscript"
@@ -20,66 +23,63 @@
                 "3": {
                     "name": "punctuation.separator"
                 }
-            },
-            "comment": "package import",
-            "match": "^import (.*?)(?=;\\n)",
-            "name": "keyword.control.zenscript"
+            }
         },
         {
             "comment": "inline comments",
-            "match": "\\s*((#|//).*$\\n?)",
-            "name": "comment.line.number-sign"
+            "name": "comment.line.number-sign",
+            "match": "\\s*((#|//).*$\\n?)"
         },
         {
+            "comment": "block comments",
+            "name": "comment.block",
             "begin": "\\/\\*",
             "beginCaptures": {
                 "0": {
                     "name": "comment.block"
                 }
             },
-            "comment": "block comments",
             "end": "\\*\\/",
             "endCaptures": {
                 "0": {
                     "name": "comment.block"
                 }
-            },
-            "name": "comment.block"
+            }
         },
         {
             "comment": "control keywords",
-            "match": "\\b(return|break|case|continue|default|do|while|for|in|switch|if|else)\\b",
-            "name": "keyword.control.zenscript"
+            "name": "keyword.control.zenscript",
+            "match": "\\b(return|break|case|continue|default|do|while|for|in|switch|if|else)\\b"
         },
         {
             "comment": "constants (true, false, null)",
-            "match": "\\b(true|false|null)\\b",
-            "name": "constant.language.zenscript"
+            "name": "constant.language.zenscript",
+            "match": "\\b(true|false|null)\\b"
         },
         {
             "comment": "numbers",
-            "match": "\\b((0(x|X)[0-9a-fA-F]*)|(([0-9]+\\.?[0-9]*)|(\\.[0-9]+))((e|E)(\\+|-)?[0-9]+)?)([LlFfUuDd]|UL|ul)?\\b",
-            "name": "token.debug-token.zenscript"
+            "name": "token.debug-token.zenscript",
+            "match": "\\b((0(x|X)[0-9a-fA-F]*)|(([0-9]+\\.?[0-9]*)|(\\.[0-9]+))((e|E)(\\+|-)?[0-9]+)?)([LlFfUuDd]|UL|ul)?\\b"
         },
         {
             "comment": "assignment operator",
-            "match": "(=)",
-            "name": "token.error-token.zenscript"
+            "name": "token.error-token.zenscript",
+            "match": "(=)"
         },
         {
             "comment": "math operators",
-            "match": "(\\-|\\+|\\*|\\/|%)",
-            "name": "token.error-token.zenscript"
+            "name": "token.error-token.zenscript",
+            "match": "(\\-|\\+|\\*|\\/|%)"
         },
         {
             "comment": "arrays",
-            "match": "\\b((?:[a-z]\\w*\\.)*[A-Z]+\\w*)(?=\\[)",
-            "name": "storage.type.object.array.zenscript"
+            "name": "storage.type.object.array.zenscript",
+            "match": "\\b((?:[a-z]\\w*\\.)*[A-Z]+\\w*)(?=\\[)"
         },
         {
             "comment": "ore/liquid dictionary",
-            "match": "(<)\\b(?:\\s*(ore|liquid))(:(.*?(:(\\d+)?)?)?)(>)",
             "name": "keyword.other.zenscript",
+            "match": "(<)\\b(?:\\s*(ore|liquid))(:(.*?(:(\\d+)?)?)?)(>)",
             "captures": {
                 "1": {
                     "name": "keyword.control.zenscript"
@@ -105,40 +105,43 @@
             }
         },
         {
+            "comment": "double quote string",
+            "name": "string.quoted.double.zenscript",
+            "contentName": "string.other.zenscript",
             "begin": "\\\"",
             "beginCaptures": {
                 "0": {
                     "name": "punctuation.definition.string.begin"
                 }
             },
-            "comment": "double quote string",
-            "contentName": "string.other.zenscript",
             "end": "\\\"",
             "endCaptures": {
                 "0": {
                     "name": "punctuation.definition.string.end"
                 }
-            },
-            "name": "string.quoted.double.zenscript"
+            }
         },
         {
+            "comment": "single quote string",
+            "name": "string.quoted.single.zenscript",
+            "contentName": "string.other.zenscript",
             "begin": "\\'",
             "beginCaptures": {
                 "0": {
                     "name": "punctuation.definition.string.begin"
                 }
             },
-            "comment": "single quote string",
-            "contentName": "string.other.zenscript",
             "end": "\\'",
             "endCaptures": {
                 "0": {
                     "name": "punctuation.definition.string.end"
                 }
-            },
-            "name": "string.quoted.single.zenscript"
+            }
         },
         {
+            "comment": "functions like function",
+            "name": "keyword.other.zenscript",
+            "match": "\\b(function)\\s?(\\()(.*?)(\\))",
             "captures": {
                 "1": {
                     "name": "storage.type.function.zenscript"
@@ -152,15 +155,12 @@
                 "4": {
                     "name": "punctuation.definition.parameters.end.zenscript"
                 }
-            },
-            "comment": "functions like function",
-            "match": "\\b(function)\\s?(\\()(.*?)(\\))",
-            "name": "keyword.other.zenscript"
+            }
         },
         {
             "comment": "dots",
-            "match": "\\b(\\w+)(\\.)(\\w+)((\\.)(\\w+))*",
             "name": "plain.text.zenscript",
+            "match": "\\b(\\w+)(\\.)(\\w+)((\\.)(\\w+))*",
             "captures": {
                 "1": {
                     "name": "storage.type.zenscript"
@@ -175,8 +175,8 @@
         },
         {
             "comment": "items and blocks",
-            "match": "(<)\\b(.*?)(:(.*?(:(\\d+)?)?)?)(>)",
             "name": "keyword.other.zenscript",
+            "match": "(<)\\b(.*?)(:(.*?(:(\\d+)?)?)?)(>)",
             "captures": {
                 "1": {
                     "name": "keyword.control.zenscript"
