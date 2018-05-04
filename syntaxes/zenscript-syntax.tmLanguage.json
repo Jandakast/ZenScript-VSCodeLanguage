@@ -11,18 +11,18 @@
         },
         {
             "comment": "package import",
-            "name": "keyword.control.zenscript",
-            "match": "^import (.*?)(?=;\\n)",
-            "captures": {
-                "1": {
-                    "name": "keyword.other.zenscript"
-                },
-                "2": {
-                    "name": "storage.modifier"
-                },
-                "3": {
-                    "name": "punctuation.separator"
-                }
+            "name": "meta.import.zenscript",
+            "begin": "\\b(import)\\b\\s*",
+            "beginCaptures": {
+				"1": {
+					"name": "keyword.other.import.zenscript"
+				}
+            },
+            "end": "\\s*(;)",
+			"endCaptures": {
+				"1": {
+					"name": "punctuation.terminator.java"
+				}
             }
         },
         {
