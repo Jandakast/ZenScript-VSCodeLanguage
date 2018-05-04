@@ -161,6 +161,25 @@
             }
         },
         {
+            "comment": "function calls",
+            "name": "meta.function-call.zenscript",
+            "begin": "(?!function)([A-Za-z_$][\\w$]*)\\s*(\\()",
+            "beginCaptures": {
+                "1": {
+                    "name": "entity.name.function.zenscript"
+                },
+				"2": {
+					"name": "punctuation.definition.parameters.begin.bracket.round.zenscript"
+				}
+            },
+            "end": "\\)",
+			"endCaptures": {
+				"0": {
+					"name": "punctuation.definition.parameters.end.bracket.round.zenscript"
+				}
+            }
+        },
+        {
             "comment": "dots",
             "name": "plain.text.zenscript",
             "match": "\\b(\\w+)(\\.)(\\w+)((\\.)(\\w+))*",
