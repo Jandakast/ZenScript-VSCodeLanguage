@@ -6,7 +6,7 @@
     "patterns": [
         {
             "comment": "var",
-            "match": "\\b(var|val)\\b",
+            "match": "\\b(var|val|static|global)\\b",
             "name": "storage.type"
         },
         {
@@ -49,7 +49,7 @@
         {
             "comment": "control keywords",
             "name": "keyword.control.zenscript",
-            "match": "\\b(return|break|case|continue|default|do|while|for|in|switch|if|else)\\b"
+            "match": "\\b(return|break|case|continue|default|do|while|for|in|switch|if|else|as|in)\\b"
         },
         {
             "comment": "constants (true, false, null)",
