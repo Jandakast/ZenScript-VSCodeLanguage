@@ -141,7 +141,7 @@
         {
             "comment": "functions",
             "name": "meta.function.zenscript",
-            "begin": "\\b(function)\\s+([A-Za-z_]\\w*)?\\s*(\\()",
+            "begin": "\\b(function)\\s*([A-Za-z_]\\w*)?\\s*(\\()",
             "beginCaptures": {
 				"1": {
 					"name": "storage.type.function.zenscript"
