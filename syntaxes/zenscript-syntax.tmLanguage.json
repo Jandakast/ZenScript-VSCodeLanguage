@@ -6,7 +6,7 @@
     "patterns": [
         {
             "comment": "var",
-            "match": "\\b(var|byte)\\b",
+            "match": "\\b(var|val)\\b",
             "name": "storage.type"
         },
         {
