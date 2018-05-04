@@ -21,7 +21,7 @@
             "end": "\\s*(;)",
 			"endCaptures": {
 				"1": {
-					"name": "punctuation.terminator.java"
+					"name": "punctuation.terminator.zenscript"
 				}
             }
         },
