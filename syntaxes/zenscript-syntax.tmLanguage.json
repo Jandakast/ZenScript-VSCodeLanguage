@@ -216,6 +216,25 @@
                     "name": "entity.name.type.class.zenscript"
                 }
             }
+        },
+        {
+            "comment": "class constructor",
+            "name": "meta.class.zenscript",
+            "begin": "\\b(zenConstructor)\\s*(\\()",
+            "beginCaptures": {
+                "1": {
+                    "name": "entity.name.function.zenscript"
+                },
+				"2": {
+					"name": "punctuation.definition.parameters.begin.bracket.round.zenscript"
+				}
+            },
+            "end": "\\)",
+			"endCaptures": {
+				"0": {
+					"name": "punctuation.definition.parameters.end.bracket.round.zenscript"
+				}
+            }
         }
     ],
     "scopeName": "text.zenscript",
