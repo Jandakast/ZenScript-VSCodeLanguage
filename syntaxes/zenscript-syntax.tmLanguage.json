@@ -200,6 +200,19 @@
                     "name": "keyword.control.zenscript"
                 }
             }
+        },
+        {
+            "comment": "class",
+            "name": "meta.class.zenscript",
+            "match": "(zenClass)\\s+(\\w+)",
+            "captures": {
+                "1": {
+                    "name": "storage.type.zenscript"
+                },
+                "2": {
+                    "name": "entity.name.type.class.zenscript"
+                }
+            }
         }
     ],
     "scopeName": "text.zenscript",
